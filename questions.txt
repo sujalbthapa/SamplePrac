@@ -1,0 +1,2679 @@
+{
+  "title": "AI Intern Written Test - 200 Questions",
+  "company": "Alpinist Studios",
+  "sections": {
+    "mcq": {
+      "description": "Multiple Choice Questions (70 Questions)",
+      "questions": [
+        {
+          "id": "MCQ001",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What is the output of: `print(type([]))`?",
+          "options": {
+            "A": "<class 'tuple'>",
+            "B": "<class 'list'>",
+            "C": "<class 'dict'>",
+            "D": "<class 'array'>"
+         
+                    },
+          "answer": "B",
+          "explanation": "[] creates an empty list in Python, so type([]) returns <class 'list'>."
+       
+                },
+        {
+          "id": "MCQ002",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "Which of the following is used to handle exceptions in Python?",
+          "options": {
+            "A": "try/catch",
+            "B": "try/except",
+            "C": "try/handle",
+            "D": "catch/throw"
+         
+                    },
+          "answer": "B",
+          "explanation": "Python uses try/except blocks for exception handling, unlike Java/C++ which use try/catch."
+       
+                },
+        {
+          "id": "MCQ003",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What does the `__init__` method do in a Python class?",
+          "options": {
+            "A": "Destroys the object",
+            "B": "Initializes class attributes when an object is created",
+            "C": "Imports the class",
+            "D": "Defines a static method"
+         
+                    },
+          "answer": "B",
+          "explanation": "__init__ is the constructor method, called automatically when an object is instantiated."
+       
+                },
+        {
+          "id": "MCQ004",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What is the difference between a list and a tuple in Python?",
+          "options": {
+            "A": "Lists are faster than tuples",
+            "B": "Tuples are mutable, lists are immutable",
+            "C": "Lists are mutable, tuples are immutable",
+            "D": "There is no difference"
+         
+                    },
+          "answer": "C",
+          "explanation": "Lists [] are mutable (can be changed), tuples () are immutable (cannot be modified after creation)."
+       
+                },
+        {
+          "id": "MCQ005",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "Which Python library is most commonly used for data manipulation and analysis?",
+          "options": {
+            "A": "NumPy",
+            "B": "Pandas",
+            "C": "Matplotlib",
+            "D": "Scikit-learn"
+         
+                    },
+          "answer": "B",
+          "explanation": "Pandas is the primary Python library for data manipulation, providing DataFrames and Series structures."
+       
+                },
+        {
+          "id": "MCQ006",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What does `*args` do in a Python function definition?",
+          "options": {
+            "A": "Passes keyword arguments as a dictionary",
+            "B": "Passes a fixed number of arguments",
+            "C": "Passes a variable number of positional arguments as a tuple",
+            "D": "Unpacks a list"
+         
+                    },
+          "answer": "C",
+          "explanation": "*args allows a function to accept any number of positional arguments, collected into a tuple."
+       
+                },
+        {
+          "id": "MCQ007",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What is a Python decorator?",
+          "options": {
+            "A": "A way to add colors to output",
+            "B": "A function that wraps another function to extend its behavior",
+            "C": "A class that inherits from another class",
+            "D": "A built-in Python module"
+         
+                    },
+          "answer": "B",
+          "explanation": "Decorators use the @syntax to wrap a function, modifying its behavior without changing its source code."
+       
+                },
+        {
+          "id": "MCQ008",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What is the output of `len({'a': 1, 'b': 2, 'c': 3})`?",
+          "options": {
+            "A": "6",
+            "B": "2",
+            "C": "3",
+            "D": "Error"
+         
+                    },
+          "answer": "C",
+          "explanation": "len() on a dictionary returns the number of key-value pairs (keys), which is 3."
+       
+                },
+        {
+          "id": "MCQ009",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "Which of the following creates a generator in Python?",
+          "options": {
+            "A": "def func(): return []",
+            "B": "def func(): yield value",
+            "C": "lambda x: x",
+            "D": "func = list()"
+         
+                    },
+          "answer": "B",
+          "explanation": "Using yield instead of return makes a function a generator, producing values lazily one at a time."
+       
+                },
+        {
+          "id": "MCQ010",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What is the purpose of `virtualenv` in Python?",
+          "options": {
+            "A": "To speed up Python execution",
+            "B": "To create isolated Python environments with separate dependencies",
+            "C": "To compile Python code",
+            "D": "To connect to virtual machines"
+         
+                    },
+          "answer": "B",
+          "explanation": "virtualenv creates isolated environments so different projects can have different package versions without conflict."
+       
+                },
+        {
+          "id": "MCQ011",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is the correct way to declare a pointer to an integer in C++?",
+          "options": {
+            "A": "int ptr;",
+            "B": "int &ptr;",
+            "C": "int *ptr;",
+            "D": "ptr int;"
+         
+                    },
+          "answer": "C",
+          "explanation": "int *ptr declares a pointer to an integer. The * denotes it is a pointer type."
+       
+                },
+        {
+          "id": "MCQ012",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is the difference between `new` and `malloc` in C++?",
+          "options": {
+            "A": "No difference, they are equivalent",
+            "B": "new calls constructors and is type-safe; malloc does not call constructors",
+            "C": "malloc is faster than new",
+            "D": "new is used for arrays only"
+         
+                    },
+          "answer": "B",
+          "explanation": "new allocates memory AND calls the constructor; malloc only allocates raw memory. new is also type-safe."
+       
+                },
+        {
+          "id": "MCQ013",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is a virtual function in C++?",
+          "options": {
+            "A": "A function with no body",
+            "B": "A function that enables runtime polymorphism through dynamic dispatch",
+            "C": "A function that is compiled separately",
+            "D": "A private function"
+         
+                    },
+          "answer": "B",
+          "explanation": "Virtual functions enable runtime polymorphism: the correct overridden function is called based on the actual object type."
+       
+                },
+        {
+          "id": "MCQ014",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What does RAII stand for in C++?",
+          "options": {
+            "A": "Random Access Iteration Interface",
+            "B": "Resource Acquisition Is Initialization",
+            "C": "Runtime Array Index Invalidation",
+            "D": "Recursive Algorithm Implementation Interface"
+         
+                    },
+          "answer": "B",
+          "explanation": "RAII means resources are acquired in a constructor and released in a destructor, ensuring proper cleanup."
+       
+                },
+        {
+          "id": "MCQ015",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "Which of the following is the correct syntax for a C++ lambda function?",
+          "options": {
+            "A": "lambda(x) { return x*2; }",
+            "B": "function [x] => x*2",
+            "C": "[](int x) { return x * 2; }",
+            "D": "def(x): return x*2"
+         
+                    },
+          "answer": "C",
+          "explanation": "C++ lambdas use [capture](params){ body } syntax. [] is the capture clause, (int x) is the parameter list."
+       
+                },
+        {
+          "id": "MCQ016",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is a smart pointer in C++?",
+          "options": {
+            "A": "A pointer that can point to any type",
+            "B": "A RAII wrapper that automatically manages memory, preventing leaks",
+            "C": "A pointer with built-in null checking",
+            "D": "A pointer faster than a raw pointer"
+         
+                    },
+          "answer": "B",
+          "explanation": "Smart pointers (unique_ptr, shared_ptr, weak_ptr) automatically free memory when they go out of scope."
+       
+                },
+        {
+          "id": "MCQ017",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is the difference between `unique_ptr` and `shared_ptr`?",
+          "options": {
+            "A": "unique_ptr allows multiple owners; shared_ptr allows only one",
+            "B": "unique_ptr allows only one owner; shared_ptr allows multiple owners with reference counting",
+            "C": "They are identical",
+            "D": "shared_ptr is faster"
+         
+                    },
+          "answer": "B",
+          "explanation": "unique_ptr has exclusive ownership. shared_ptr uses reference counting to allow multiple owners."
+       
+                },
+        {
+          "id": "MCQ018",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What does the `const` keyword mean when applied to a member function?",
+          "options": {
+            "A": "The function cannot be called",
+            "B": "The function cannot modify the object's member variables",
+            "C": "The function returns a constant value",
+            "D": "The function is executed at compile time"
+         
+                    },
+          "answer": "B",
+          "explanation": "A const member function guarantees it will not modify any member variables of the class."
+       
+                },
+        {
+          "id": "MCQ019",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is template metaprogramming in C++?",
+          "options": {
+            "A": "Writing code that generates HTML templates",
+            "B": "Using templates to perform computations at compile time",
+            "C": "A design pattern for UI components",
+            "D": "Dynamically loading libraries at runtime"
+         
+                    },
+          "answer": "B",
+          "explanation": "Template metaprogramming uses C++ templates to perform calculations during compilation, not at runtime."
+       
+                },
+        {
+          "id": "MCQ020",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "In C++, what is the purpose of `std::move()`?",
+          "options": {
+            "A": "Copies an object to a new location",
+            "B": "Transfers ownership of resources via move semantics, avoiding expensive copies",
+            "C": "Moves a file on disk",
+            "D": "Sorts a container"
+         
+                    },
+          "answer": "B",
+          "explanation": "std::move() casts to an rvalue reference, enabling move constructors to transfer resources efficiently."
+       
+                },
+        {
+          "id": "MCQ021",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What HTTP status code indicates a successful request?",
+          "options": {
+            "A": "404",
+            "B": "500",
+            "C": "200",
+            "D": "301"
+         
+                    },
+          "answer": "C",
+          "explanation": "HTTP 200 OK means the request succeeded. 404 = Not Found, 500 = Server Error, 301 = Moved Permanently."
+       
+                },
+        {
+          "id": "MCQ022",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What does REST stand for?",
+          "options": {
+            "A": "Remote Execution and State Transfer",
+            "B": "Representational State Transfer",
+            "C": "Rapid Execution and Scripting Technique",
+            "D": "Resource Encoding and Serialization Technique"
+         
+                    },
+          "answer": "B",
+          "explanation": "REST (Representational State Transfer) is an architectural style for APIs using HTTP methods and stateless communication."
+       
+                },
+        {
+          "id": "MCQ023",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "Which HTTP method is used to CREATE a new resource in a RESTful API?",
+          "options": {
+            "A": "GET",
+            "B": "PUT",
+            "C": "POST",
+            "D": "DELETE"
+         
+                    },
+          "answer": "C",
+          "explanation": "POST creates new resources. GET retrieves, PUT updates/replaces, PATCH partially updates, DELETE removes."
+       
+                },
+        {
+          "id": "MCQ024",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What is the purpose of an API key?",
+          "options": {
+            "A": "To encrypt the API response",
+            "B": "To authenticate and authorize access to an API",
+            "C": "To compress data sent to the API",
+            "D": "To specify the API version"
+         
+                    },
+          "answer": "B",
+          "explanation": "API keys identify and authenticate the calling application, allowing rate limiting and access control."
+       
+                },
+        {
+          "id": "MCQ025",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What is JSON?",
+          "options": {
+            "A": "A programming language",
+            "B": "A lightweight data-interchange format based on JavaScript object syntax",
+            "C": "A database type",
+            "D": "A HTTP method"
+         
+                    },
+          "answer": "B",
+          "explanation": "JSON (JavaScript Object Notation) is a text-based format for data exchange, easy for humans to read and machines to parse."
+       
+                },
+        {
+          "id": "MCQ026",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What does the `Authorization: Bearer <token>` header do?",
+          "options": {
+            "A": "Compresses the request body",
+            "B": "Sends a token to authenticate the request using OAuth 2.0 / JWT",
+            "C": "Specifies the content type",
+            "D": "Caches the API response"
+         
+                    },
+          "answer": "B",
+          "explanation": "Bearer tokens are used in OAuth 2.0 flows. The header authenticates the caller with a token (often a JWT)."
+       
+                },
+        {
+          "id": "MCQ027",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What is rate limiting in APIs?",
+          "options": {
+            "A": "Compressing API responses for faster delivery",
+            "B": "Restricting the number of requests a client can make within a time window",
+            "C": "Sorting API results by relevance",
+            "D": "Caching frequently requested data"
+         
+                    },
+          "answer": "B",
+          "explanation": "Rate limiting prevents abuse and ensures fair usage by capping requests per second/minute/hour per user or key."
+       
+                },
+        {
+          "id": "MCQ028",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What is the difference between REST and GraphQL?",
+          "options": {
+            "A": "GraphQL is faster than REST in all cases",
+            "B": "REST uses fixed endpoints; GraphQL uses a single endpoint where the client specifies exactly what data it needs",
+            "C": "GraphQL only works with JavaScript",
+            "D": "REST is newer than GraphQL"
+         
+                    },
+          "answer": "B",
+          "explanation": "GraphQL eliminates over-fetching/under-fetching by letting clients query exactly the fields they need via one endpoint."
+       
+                },
+        {
+          "id": "MCQ029",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What Python library is most commonly used to make HTTP requests?",
+          "options": {
+            "A": "urllib2",
+            "B": "httplib",
+            "C": "requests",
+            "D": "fetch"
+         
+                    },
+          "answer": "C",
+          "explanation": "The `requests` library is the standard for HTTP calls in Python: `import requests; r = requests.get(url)`."
+       
+                },
+        {
+          "id": "MCQ030",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What does a 429 HTTP status code mean?",
+          "options": {
+            "A": "Unauthorized",
+            "B": "Not Found",
+            "C": "Too Many Requests (rate limit exceeded)",
+            "D": "Internal Server Error"
+         
+                    },
+          "answer": "C",
+          "explanation": "HTTP 429 Too Many Requests is returned when a client exceeds the API's rate limit."
+       
+                },
+        {
+          "id": "MCQ031",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is the main purpose of a loss function in machine learning?",
+          "options": {
+            "A": "To store model weights",
+            "B": "To quantify how wrong the model's predictions are during training",
+            "C": "To load training data",
+            "D": "To define the neural network architecture"
+         
+                    },
+          "answer": "B",
+          "explanation": "The loss function measures prediction error. The optimizer minimizes this function to improve the model."
+       
+                },
+        {
+          "id": "MCQ032",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is overfitting in machine learning?",
+          "options": {
+            "A": "When the model performs well on both training and test data",
+            "B": "When the model is too simple to capture patterns",
+            "C": "When the model learns training data too precisely and fails to generalize",
+            "D": "When training takes too long"
+         
+                    },
+          "answer": "C",
+          "explanation": "Overfitting: high training accuracy but low test accuracy. The model memorizes noise instead of learning patterns."
+       
+                },
+        {
+          "id": "MCQ033",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "Which activation function is most commonly used in hidden layers of deep neural networks?",
+          "options": {
+            "A": "Sigmoid",
+            "B": "Tanh",
+            "C": "ReLU",
+            "D": "Softmax"
+         
+                    },
+          "answer": "C",
+          "explanation": "ReLU (f(x)=max(0,x)) is preferred for hidden layers: fast to compute, avoids vanishing gradient for positive values."
+       
+                },
+        {
+          "id": "MCQ034",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What does RAG stand for in the context of LLMs?",
+          "options": {
+            "A": "Random Attention Generalization",
+            "B": "Retrieval-Augmented Generation",
+            "C": "Recurrent Autoencoder Graph",
+            "D": "Runtime Agent Guidance"
+         
+                    },
+          "answer": "B",
+          "explanation": "RAG augments LLMs by retrieving relevant documents from a vector database before generating a response."
+       
+                },
+        {
+          "id": "MCQ035",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is transfer learning?",
+          "options": {
+            "A": "Transferring data between databases",
+            "B": "Using a pre-trained model as a starting point for a new related task",
+            "C": "Converting a model from one framework to another",
+            "D": "Sharing model weights between users"
+         
+                    },
+          "answer": "B",
+          "explanation": "Transfer learning leverages existing learned features from large datasets to improve performance on smaller datasets."
+       
+                },
+        {
+          "id": "MCQ036",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is the purpose of dropout in neural networks?",
+          "options": {
+            "A": "To speed up inference",
+            "B": "To reduce model size",
+            "C": "To prevent overfitting by randomly deactivating neurons during training",
+            "D": "To initialize weights"
+         
+                    },
+          "answer": "C",
+          "explanation": "Dropout randomly zeroes out neurons during training, forcing the network to learn redundant representations."
+       
+                },
+        {
+          "id": "MCQ037",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is a hallucination in LLMs?",
+          "options": {
+            "A": "Visual artifacts in image generation",
+            "B": "When the model generates confident but factually incorrect or fabricated information",
+            "C": "A model running out of memory",
+            "D": "Repetitive output from the model"
+         
+                    },
+          "answer": "B",
+          "explanation": "LLM hallucinations occur when models generate plausible-sounding but false information due to token prediction."
+       
+                },
+        {
+          "id": "MCQ038",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is the context window in an LLM?",
+          "options": {
+            "A": "The GUI window where the model is displayed",
+            "B": "The maximum number of tokens the model can process in one inference call",
+            "C": "The training data size",
+            "D": "The number of attention heads"
+         
+                    },
+          "answer": "B",
+          "explanation": "The context window limits how much text (input+output) the model can consider at once. Exceeding it truncates earlier content."
+       
+                },
+        {
+          "id": "MCQ039",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is the transformer architecture primarily based on?",
+          "options": {
+            "A": "Convolutional layers",
+            "B": "Recurrent layers",
+            "C": "Self-attention mechanisms",
+            "D": "Decision trees"
+         
+                    },
+          "answer": "C",
+          "explanation": "Transformers use self-attention to allow each token to attend to all others, enabling parallel processing of sequences."
+       
+                },
+        {
+          "id": "MCQ040",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is k-fold cross-validation?",
+          "options": {
+            "A": "Splitting data into k equal parts, training on k-1 and testing on 1, rotating through all k folds",
+            "B": "Training a model k times with different random seeds",
+            "C": "Using k different models and averaging their predictions",
+            "D": "Splitting data into k groups by label"
+         
+                    },
+          "answer": "A",
+          "explanation": "k-fold CV gives a more reliable performance estimate by using each fold as a test set exactly once."
+       
+                },
+        {
+          "id": "MCQ041",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What does DRY stand for in software development?",
+          "options": {
+            "A": "Dynamic Runtime Yield",
+            "B": "Don't Repeat Yourself",
+            "C": "Data Recovery Yield",
+            "D": "Distributed Runtime Yield"
+         
+                    },
+          "answer": "B",
+          "explanation": "DRY means every piece of knowledge should have a single authoritative representation in the codebase."
+       
+                },
+        {
+          "id": "MCQ042",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What is the purpose of version control (e.g., Git)?",
+          "options": {
+            "A": "To compile code faster",
+            "B": "To track changes, collaborate with teams, and manage code history",
+            "C": "To test code automatically",
+            "D": "To deploy applications"
+         
+                    },
+          "answer": "B",
+          "explanation": "Git tracks every code change, enables collaboration, branching, merging, and rollback to previous states."
+       
+                },
+        {
+          "id": "MCQ043",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What is Big O notation used for?",
+          "options": {
+            "A": "Describing object-oriented patterns",
+            "B": "Describing the time or space complexity of an algorithm as input size grows",
+            "C": "Measuring code quality",
+            "D": "Defining API contracts"
+         
+                    },
+          "answer": "B",
+          "explanation": "Big O describes worst-case algorithm performance. O(1) is constant, O(n) linear, O(n²) quadratic, etc."
+       
+                },
+        {
+          "id": "MCQ044",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What is unit testing?",
+          "options": {
+            "A": "Testing the entire application end-to-end",
+            "B": "Testing individual functions or components in isolation",
+            "C": "Testing performance under load",
+            "D": "Manual testing by a QA team"
+         
+                    },
+          "answer": "B",
+          "explanation": "Unit tests verify that individual functions/methods work correctly in isolation, independent of other components."
+       
+                },
+        {
+          "id": "MCQ045",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What is the Single Responsibility Principle (SRP)?",
+          "options": {
+            "A": "A class should have only one instance",
+            "B": "A class should have only one reason to change (one responsibility)",
+            "C": "A function should accept only one argument",
+            "D": "Code should be written by one developer only"
+         
+                    },
+          "answer": "B",
+          "explanation": "SRP (from SOLID) means each class/function does one thing well, making code easier to maintain and test."
+       
+                },
+        {
+          "id": "MCQ046",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What is a code review?",
+          "options": {
+            "A": "Automatically running tests on code",
+            "B": "A systematic examination of source code by peers to find bugs and improve quality",
+            "C": "Reading code documentation",
+            "D": "Reviewing performance metrics"
+         
+                    },
+          "answer": "B",
+          "explanation": "Code reviews catch bugs, enforce standards, share knowledge, and improve code quality before merging."
+       
+                },
+        {
+          "id": "MCQ047",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What is the purpose of a `.gitignore` file?",
+          "options": {
+            "A": "To store Git credentials",
+            "B": "To list files and directories that Git should not track",
+            "C": "To define Git branch names",
+            "D": "To speed up Git operations"
+         
+                    },
+          "answer": "B",
+          "explanation": ".gitignore tells Git to ignore specified files (e.g., __pycache__, .env, node_modules, build artifacts)."
+       
+                },
+        {
+          "id": "MCQ048",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "Which of the following is a CI/CD tool?",
+          "options": {
+            "A": "Jupyter Notebook",
+            "B": "GitHub Actions",
+            "C": "Postman",
+            "D": "pgAdmin"
+         
+                    },
+          "answer": "B",
+          "explanation": "GitHub Actions automates build, test, and deployment pipelines (CI/CD) directly from a GitHub repository."
+       
+                },
+        {
+          "id": "MCQ049",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What is the difference between `==` and `is` in Python?",
+          "options": {
+            "A": "No difference",
+            "B": "== compares object identity; is compares values",
+            "C": "== compares values; is compares object identity (same memory location)",
+            "D": "is is used only for strings"
+         
+                    },
+          "answer": "C",
+          "explanation": "== checks if values are equal. is checks if two variables point to the exact same object in memory."
+       
+                },
+        {
+          "id": "MCQ050",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What does it mean for an API to be idempotent?",
+          "options": {
+            "A": "The API is very fast",
+            "B": "Calling the API multiple times with the same inputs produces the same result as calling it once",
+            "C": "The API requires authentication",
+            "D": "The API returns the same response format always"
+         
+                    },
+          "answer": "B",
+          "explanation": "Idempotent operations are safe to retry. GET, PUT, DELETE are idempotent; POST is not."
+       
+                },
+        {
+          "id": "MCQ051",
+          "type": "mcq",
+          "topic": "Python/AI",
+          "question": "What does `numpy.reshape(-1, 1)` do to an array?",
+          "options": {
+            "A": "Flattens the array to 1D",
+            "B": "Converts to a column vector with inferred number of rows",
+            "C": "Reverses the array",
+            "D": "Removes all negative values"
+         
+                    },
+          "answer": "B",
+          "explanation": "-1 in reshape lets NumPy infer that dimension automatically. reshape(-1,1) gives shape (n, 1) — a column vector."
+       
+                },
+        {
+          "id": "MCQ052",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is fine-tuning in the context of LLMs?",
+          "options": {
+            "A": "Adjusting the learning rate during training",
+            "B": "Further training a pre-trained model on a smaller task-specific dataset",
+            "C": "Compressing the model for deployment",
+            "D": "Evaluating model performance"
+         
+                    },
+          "answer": "B",
+          "explanation": "Fine-tuning adapts a pre-trained LLM to specific behavior, style, or domain knowledge using a curated dataset."
+       
+                },
+        {
+          "id": "MCQ053",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What is the output of `[x**2 for x in range(4)]`?",
+          "options": {
+            "A": "[1, 4, 9, 16]",
+            "B": "[0, 1, 4, 9]",
+            "C": "[0, 1, 2, 3]",
+            "D": "[1, 2, 3, 4]"
+         
+                    },
+          "answer": "B",
+          "explanation": "range(4) = [0,1,2,3]. Squaring each: 0²=0, 1²=1, 2²=4, 3²=9 → [0, 1, 4, 9]."
+       
+                },
+        {
+          "id": "MCQ054",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is the output of the following C++ code? `int x = 5; int y = x++;` What is y?",
+          "options": {
+            "A": "6",
+            "B": "5",
+            "C": "4",
+            "D": "Error"
+         
+                    },
+          "answer": "B",
+          "explanation": "Post-increment (x++) returns the original value before incrementing. So y = 5, then x becomes 6."
+       
+                },
+        {
+          "id": "MCQ055",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is the purpose of the softmax function in neural networks?",
+          "options": {
+            "A": "To normalize hidden layer activations",
+            "B": "To convert raw output scores into probabilities that sum to 1",
+            "C": "To initialize weights",
+            "D": "To compute gradients"
+         
+                    },
+          "answer": "B",
+          "explanation": "Softmax converts logits into a probability distribution across classes. Used in the output layer for multi-class classification."
+       
+                },
+        {
+          "id": "MCQ056",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What is a webhook?",
+          "options": {
+            "A": "A type of API authentication",
+            "B": "An HTTP callback where a server sends data to a URL when an event occurs",
+            "C": "A tool for testing APIs",
+            "D": "A GraphQL feature"
+         
+                    },
+          "answer": "B",
+          "explanation": "Webhooks are event-driven: instead of polling, the server POSTs data to your URL when something happens."
+       
+                },
+        {
+          "id": "MCQ057",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What does `enumerate()` do in Python?",
+          "options": {
+            "A": "Returns only even numbers",
+            "B": "Returns an iterator of (index, value) tuples from an iterable",
+            "C": "Counts the elements in a list",
+            "D": "Converts a list to a dictionary"
+         
+                    },
+          "answer": "B",
+          "explanation": "enumerate(iterable) yields (0, item0), (1, item1), etc. — useful for getting both index and value in loops."
+       
+                },
+        {
+          "id": "MCQ058",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is an embedding in AI?",
+          "options": {
+            "A": "A type of image format",
+            "B": "A dense vector representation of data that captures semantic meaning",
+            "C": "A way to compress model weights",
+            "D": "A database index"
+         
+                    },
+          "answer": "B",
+          "explanation": "Embeddings map words, sentences, or images to high-dimensional vectors where similar items are close together."
+       
+                },
+        {
+          "id": "MCQ059",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is operator overloading in C++?",
+          "options": {
+            "A": "Using too many operators in one expression",
+            "B": "Defining custom behavior for operators (like +, -, ==) for user-defined types",
+            "C": "Overwriting built-in functions",
+            "D": "Using virtual functions"
+         
+                    },
+          "answer": "B",
+          "explanation": "Operator overloading lets you define how operators work on your custom classes, e.g., adding two Vector objects with +."
+       
+                },
+        {
+          "id": "MCQ060",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is the bias-variance tradeoff?",
+          "options": {
+            "A": "The tradeoff between model speed and accuracy",
+            "B": "The tradeoff between training data size and test data size",
+            "C": "The tradeoff between model simplicity (high bias/underfitting) and flexibility (high variance/overfitting)",
+            "D": "The tradeoff between CPU and GPU usage"
+         
+                    },
+          "answer": "C",
+          "explanation": "Total error = bias² + variance + irreducible noise. Reducing one often increases the other; balance is key."
+       
+                },
+        {
+          "id": "MCQ061",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What is the difference between `deepcopy` and shallow copy in Python?",
+          "options": {
+            "A": "No difference",
+            "B": "Shallow copy copies the reference; deepcopy recursively copies all nested objects",
+            "C": "Deepcopy is faster",
+            "D": "Shallow copy works only on strings"
+         
+                    },
+          "answer": "B",
+          "explanation": "copy.copy() creates a shallow copy (nested objects still shared). copy.deepcopy() creates a fully independent clone."
+       
+                },
+        {
+          "id": "MCQ062",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is RLHF?",
+          "options": {
+            "A": "Recursive Learning and Hierarchical Filtering",
+            "B": "Reinforcement Learning from Human Feedback — used to align LLMs with human preferences",
+            "C": "Rapid Learning for High Frequency trading",
+            "D": "Random Learning with Hyperparameter Fine-tuning"
+         
+                    },
+          "answer": "B",
+          "explanation": "RLHF trains a reward model on human ratings, then fine-tunes the LLM using PPO to maximize human preference scores."
+       
+                },
+        {
+          "id": "MCQ063",
+          "type": "mcq",
+          "topic": "Coding Practices",
+          "question": "What is the purpose of an environment variable like `.env` file?",
+          "options": {
+            "A": "To store Python dependencies",
+            "B": "To securely store configuration values (API keys, DB credentials) outside of source code",
+            "C": "To define function environments",
+            "D": "To configure the Python virtual environment"
+         
+                    },
+          "answer": "B",
+          "explanation": ".env files store secrets and config separately from code so they are not accidentally committed to version control."
+       
+                },
+        {
+          "id": "MCQ064",
+          "type": "mcq",
+          "topic": "API Integration",
+          "question": "What is CORS?",
+          "options": {
+            "A": "A type of API authentication",
+            "B": "Cross-Origin Resource Sharing — a browser security feature controlling cross-domain API requests",
+            "C": "A compression algorithm for API responses",
+            "D": "A caching strategy"
+         
+                    },
+          "answer": "B",
+          "explanation": "CORS headers tell browsers which origins are allowed to make API calls, preventing unauthorized cross-origin requests."
+       
+                },
+        {
+          "id": "MCQ065",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is the purpose of `#include <iostream>` in C++?",
+          "options": {
+            "A": "Imports the internet streaming library",
+            "B": "Includes the input/output stream library for cin, cout, cerr",
+            "C": "Defines the main function",
+            "D": "Imports string handling functions"
+         
+                    },
+          "answer": "B",
+          "explanation": "<iostream> provides std::cin for input, std::cout for output, and std::cerr for error output."
+       
+                },
+        {
+          "id": "MCQ066",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is a confusion matrix used for?",
+          "options": {
+            "A": "Debugging neural networks",
+            "B": "Showing predicted vs actual class labels to evaluate classification model performance",
+            "C": "Visualizing data distributions",
+            "D": "Tracking training loss"
+         
+                    },
+          "answer": "B",
+          "explanation": "Confusion matrices show TP, TN, FP, FN counts, from which precision, recall, F1, and accuracy are derived."
+       
+                },
+        {
+          "id": "MCQ067",
+          "type": "mcq",
+          "topic": "Python",
+          "question": "What does `with open('file.txt', 'r') as f:` do?",
+          "options": {
+            "A": "Creates a new file",
+            "B": "Opens a file for reading and automatically closes it when the block exits",
+            "C": "Reads the entire file into a variable",
+            "D": "Deletes the file after reading"
+         
+                    },
+          "answer": "B",
+          "explanation": "The `with` statement uses context managers to ensure the file is closed properly even if an exception occurs."
+       
+                },
+        {
+          "id": "MCQ068",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is gradient descent?",
+          "options": {
+            "A": "A technique for data preprocessing",
+            "B": "An iterative optimization algorithm that minimizes loss by moving parameters in the direction of negative gradient",
+            "C": "A type of neural network architecture",
+            "D": "A method for feature selection"
+         
+                    },
+          "answer": "B",
+          "explanation": "Gradient descent computes the gradient of the loss and updates weights by θ = θ - α∇L to minimize error."
+       
+                },
+        {
+          "id": "MCQ069",
+          "type": "mcq",
+          "topic": "C++",
+          "question": "What is the difference between a class and a struct in C++?",
+          "options": {
+            "A": "Structs cannot have functions",
+            "B": "Class members are private by default; struct members are public by default",
+            "C": "Structs are faster than classes",
+            "D": "Classes cannot inherit from structs"
+         
+                    },
+          "answer": "B",
+          "explanation": "The only technical difference: class defaults to private access, struct defaults to public. Otherwise they are identical."
+       
+                },
+        {
+          "id": "MCQ070",
+          "type": "mcq",
+          "topic": "AI/ML Concepts",
+          "question": "What is the purpose of tokenization in NLP?",
+          "options": {
+            "A": "To encrypt text data",
+            "B": "To split text into units (tokens) that a model can process numerically",
+            "C": "To compress text for storage",
+            "D": "To translate text between languages"
+         
+                    },
+          "answer": "B",
+          "explanation": "Tokenization converts raw text into token IDs (words, subwords, or characters) that neural networks can process."
+       
+                }
+     
+            ]
+   
+        },
+    "code_writing": {
+      "description": "Code Writing Questions (65 Questions)",
+      "questions": [
+        {
+          "id": "CW001",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that takes a list of integers and returns only the even numbers.",
+          "answer": {
+            "language": "python",
+            "code": "def get_even_numbers(numbers):\n    return [n for n in numbers if n % 2 == 0]\n\n# Example usage:\nprint(get_even_numbers([1, 2, 3, 4, 5, 6]))  # Output: [2, 4, 6]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW002",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python class `BankAccount` with methods for deposit, withdraw, and get_balance. Ensure withdraw raises a ValueError if funds are insufficient.",
+          "answer": {
+            "language": "python",
+            "code": "class BankAccount:\n    def __init__(self, owner, balance=0):\n        self.owner = owner\n        self.__balance = balance\n\n    def deposit(self, amount):\n        if amount <= 0:\n            raise ValueError('Deposit amount must be positive')\n        self.__balance += amount\n\n    def withdraw(self, amount):\n        if amount > self.__balance:\n            raise ValueError('Insufficient funds')\n        self.__balance -= amount\n\n    def get_balance(self):\n        return self.__balance\n\n# Usage:\nacc = BankAccount('Alice', 100)\nacc.deposit(50)\nprint(acc.get_balance())  # 150\nacc.withdraw(200)         # Raises ValueError"
+         
+                    }
+       
+                },
+        {
+          "id": "CW003",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to reverse a string without using the built-in reverse or slicing shortcut.",
+          "answer": {
+            "language": "python",
+            "code": "def reverse_string(s):\n    result = ''\n    for char in s:\n        result = char + result\n    return result\n\nprint(reverse_string('hello'))  # Output: 'olleh'"
+         
+                    }
+       
+                },
+        {
+          "id": "CW004",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python decorator `timer` that prints the execution time of any function it decorates.",
+          "answer": {
+            "language": "python",
+            "code": "import time\n\ndef timer(func):\n    def wrapper(*args, **kwargs):\n        start = time.time()\n        result = func(*args, **kwargs)\n        end = time.time()\n        print(f'{func.__name__} took {end - start:.4f} seconds')\n        return result\n    return wrapper\n\n@timer\ndef slow_function():\n    time.sleep(1)\n\nslow_function()  # Output: slow_function took 1.0001 seconds"
+         
+                    }
+       
+                },
+        {
+          "id": "CW005",
+          "type": "code_writing",
+          "topic": "Python/API",
+          "question": "Write a Python function that calls the OpenAI Chat Completions API and returns the assistant's reply. Use the `requests` library.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\n\ndef call_openai(prompt, api_key):\n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {\n        'Authorization': f'Bearer {api_key}',\n        'Content-Type': 'application/json'\n    }\n    payload = {\n        'model': 'gpt-4',\n        'messages': [{'role': 'user', 'content': prompt}],\n        'temperature': 0.7\n    }\n    response = requests.post(url, headers=headers, json=payload)\n    response.raise_for_status()\n    return response.json()['choices'][0]['message']['content']\n\n# reply = call_openai('Hello, who are you?', api_key='your-key')"
+         
+                    }
+       
+                },
+        {
+          "id": "CW006",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python generator function that yields Fibonacci numbers indefinitely.",
+          "answer": {
+            "language": "python",
+            "code": "def fibonacci():\n    a, b = 0, 1\n    while True:\n        yield a\n        a, b = b, a + b\n\n# Usage: Get first 10 Fibonacci numbers\nfib = fibonacci()\nprint([next(fib) for _ in range(10)])\n# Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW007",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a function to find the second largest number in a list without using sorting.",
+          "answer": {
+            "language": "python",
+            "code": "def second_largest(nums):\n    if len(nums) < 2:\n        raise ValueError('Need at least 2 elements')\n    largest = second = float('-inf')\n    for n in nums:\n        if n > largest:\n            second = largest\n            largest = n\n        elif n > second and n != largest:\n            second = n\n    if second == float('-inf'):\n        raise ValueError('No second largest element')\n    return second\n\nprint(second_largest([3, 1, 4, 1, 5, 9, 2, 6]))  # Output: 6"
+         
+                    }
+       
+                },
+        {
+          "id": "CW008",
+          "type": "code_writing",
+          "topic": "Python/API",
+          "question": "Write a Python function that makes a GET request to a REST API and handles 404 and 500 errors gracefully.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\n\ndef fetch_data(url):\n    try:\n        response = requests.get(url, timeout=10)\n        if response.status_code == 404:\n            print(f'Resource not found at {url}')\n            return None\n        elif response.status_code == 500:\n            print('Server error. Try again later.')\n            return None\n        response.raise_for_status()  # Raises for other 4xx/5xx\n        return response.json()\n    except requests.exceptions.Timeout:\n        print('Request timed out')\n        return None\n    except requests.exceptions.RequestException as e:\n        print(f'Request failed: {e}')\n        return None\n\ndata = fetch_data('https://jsonplaceholder.typicode.com/todos/1')\nprint(data)"
+         
+                    }
+       
+                },
+        {
+          "id": "CW009",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ class `Stack` using a vector that supports push, pop, top, and isEmpty operations.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n#include <vector>\n#include <stdexcept>\n\nclass Stack {\nprivate:\n    std::vector<int> data;\n\npublic:\n    void push(int val) {\n        data.push_back(val);\n    }\n\n    void pop() {\n        if (isEmpty()) throw std::underflow_error('Stack is empty');\n        data.pop_back();\n    }\n\n    int top() const {\n        if (isEmpty()) throw std::underflow_error('Stack is empty');\n        return data.back();\n    }\n\n    bool isEmpty() const {\n        return data.empty();\n    }\n};\n\nint main() {\n    Stack s;\n    s.push(1); s.push(2); s.push(3);\n    std::cout << s.top() << std::endl;  // 3\n    s.pop();\n    std::cout << s.top() << std::endl;  // 2\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW010",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ template function `findMax` that returns the maximum of two values of any type.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n\ntemplate <typename T>\nT findMax(T a, T b) {\n    return (a > b) ? a : b;\n}\n\nint main() {\n    std::cout << findMax(3, 7) << std::endl;       // 7\n    std::cout << findMax(3.14, 2.71) << std::endl; // 3.14\n    std::cout << findMax('a', 'z') << std::endl;   // z\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW011",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to count word frequency in a string and return the result as a dictionary.",
+          "answer": {
+            "language": "python",
+            "code": "def word_frequency(text):\n    words = text.lower().split()\n    freq = {}\n    for word in words:\n        # Strip punctuation\n        word = word.strip('.,!?;:\\'\"')\n        freq[word] = freq.get(word, 0) + 1\n    return freq\n\nprint(word_frequency('hello world hello AI world'))\n# Output: {'hello': 2, 'world': 2, 'ai': 1}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW012",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python context manager class `Timer` that measures and prints elapsed time for a block of code.",
+          "answer": {
+            "language": "python",
+            "code": "import time\n\nclass Timer:\n    def __enter__(self):\n        self.start = time.time()\n        return self\n\n    def __exit__(self, *args):\n        self.elapsed = time.time() - self.start\n        print(f'Elapsed time: {self.elapsed:.4f} seconds')\n\n# Usage:\nwith Timer():\n    time.sleep(0.5)\n    result = sum(range(1000000))\n# Output: Elapsed time: 0.5xxx seconds"
+         
+                    }
+       
+                },
+        {
+          "id": "CW013",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python function that sends a list of messages to the OpenAI API in a conversation and returns the latest reply.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\n\ndef chat_with_openai(messages, api_key, model='gpt-4'):\n    \"\"\"\n    messages: list of {'role': 'user'/'assistant'/'system', 'content': str}\n    \"\"\"\n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {\n        'Authorization': f'Bearer {api_key}',\n        'Content-Type': 'application/json'\n    }\n    payload = {'model': model, 'messages': messages}\n    response = requests.post(url, headers=headers, json=payload)\n    response.raise_for_status()\n    return response.json()['choices'][0]['message']['content']\n\n# Multi-turn conversation:\nconversation = [\n    {'role': 'system', 'content': 'You are a helpful AI assistant.'},\n    {'role': 'user', 'content': 'What is machine learning?'}\n]\n# reply = chat_with_openai(conversation, api_key='sk-...')"
+         
+                    }
+       
+                },
+        {
+          "id": "CW014",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that uses binary search to find a target in a sorted list. Return -1 if not found.",
+          "answer": {
+            "language": "python",
+            "code": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n\nprint(binary_search([1, 3, 5, 7, 9, 11], 7))   # Output: 3\nprint(binary_search([1, 3, 5, 7, 9, 11], 4))   # Output: -1"
+         
+                    }
+       
+                },
+        {
+          "id": "CW015",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ function using recursion to compute the factorial of a non-negative integer.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n\nlong long factorial(int n) {\n    if (n < 0) throw std::invalid_argument('Negative input');\n    if (n == 0 || n == 1) return 1;\n    return n * factorial(n - 1);\n}\n\nint main() {\n    std::cout << factorial(5) << std::endl;  // 120\n    std::cout << factorial(10) << std::endl; // 3628800\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW016",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python class `Queue` implementing a FIFO queue with enqueue, dequeue, is_empty, and peek methods.",
+          "answer": {
+            "language": "python",
+            "code": "from collections import deque\n\nclass Queue:\n    def __init__(self):\n        self._data = deque()\n\n    def enqueue(self, item):\n        self._data.append(item)\n\n    def dequeue(self):\n        if self.is_empty():\n            raise IndexError('Queue is empty')\n        return self._data.popleft()\n\n    def peek(self):\n        if self.is_empty():\n            raise IndexError('Queue is empty')\n        return self._data[0]\n\n    def is_empty(self):\n        return len(self._data) == 0\n\n    def __len__(self):\n        return len(self._data)\n\n# Usage:\nq = Queue()\nq.enqueue(1); q.enqueue(2); q.enqueue(3)\nprint(q.dequeue())  # 1\nprint(q.peek())     # 2"
+         
+                    }
+       
+                },
+        {
+          "id": "CW017",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python function that reads a text file and uses the OpenAI API to summarize its content.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\n\ndef summarize_file(filepath, api_key):\n    with open(filepath, 'r', encoding='utf-8') as f:\n        content = f.read()\n\n    prompt = f'Please summarize the following text concisely:\\n\\n{content}'\n    \n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {\n        'Authorization': f'Bearer {api_key}',\n        'Content-Type': 'application/json'\n    }\n    payload = {\n        'model': 'gpt-4',\n        'messages': [{'role': 'user', 'content': prompt}],\n        'max_tokens': 300\n    }\n    response = requests.post(url, headers=headers, json=payload)\n    response.raise_for_status()\n    return response.json()['choices'][0]['message']['content']\n\n# summary = summarize_file('report.txt', api_key='sk-...')"
+         
+                    }
+       
+                },
+        {
+          "id": "CW018",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to flatten a nested list (any depth) using recursion.",
+          "answer": {
+            "language": "python",
+            "code": "def flatten(lst):\n    result = []\n    for item in lst:\n        if isinstance(item, list):\n            result.extend(flatten(item))\n        else:\n            result.append(item)\n    return result\n\nprint(flatten([1, [2, [3, [4]], 5], 6]))\n# Output: [1, 2, 3, 4, 5, 6]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW019",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ function that checks if a given string is a palindrome (ignoring case).",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n#include <string>\n#include <algorithm>\n#include <cctype>\n\nbool isPalindrome(std::string s) {\n    // Convert to lowercase\n    std::transform(s.begin(), s.end(), s.begin(), ::tolower);\n    // Remove non-alphanumeric\n    s.erase(std::remove_if(s.begin(), s.end(),\n        [](char c){ return !std::isalnum(c); }), s.end());\n    \n    std::string rev = s;\n    std::reverse(rev.begin(), rev.end());\n    return s == rev;\n}\n\nint main() {\n    std::cout << isPalindrome('Racecar') << std::endl;       // 1 (true)\n    std::cout << isPalindrome('A man a plan a canal Panama') << std::endl; // 1\n    std::cout << isPalindrome('hello') << std::endl;         // 0\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW020",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that loads a JSON file and returns it as a Python dictionary.",
+          "answer": {
+            "language": "python",
+            "code": "import json\n\ndef load_json(filepath):\n    try:\n        with open(filepath, 'r', encoding='utf-8') as f:\n            return json.load(f)\n    except FileNotFoundError:\n        print(f'File not found: {filepath}')\n        return {}\n    except json.JSONDecodeError as e:\n        print(f'Invalid JSON: {e}')\n        return {}\n\n# Usage:\ndata = load_json('config.json')\nprint(data)"
+         
+                    }
+       
+                },
+        {
+          "id": "CW021",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that implements merge sort.",
+          "answer": {
+            "language": "python",
+            "code": "def merge_sort(arr):\n    if len(arr) <= 1:\n        return arr\n    \n    mid = len(arr) // 2\n    left = merge_sort(arr[:mid])\n    right = merge_sort(arr[mid:])\n    \n    return merge(left, right)\n\ndef merge(left, right):\n    result = []\n    i = j = 0\n    while i < len(left) and j < len(right):\n        if left[i] <= right[j]:\n            result.append(left[i]); i += 1\n        else:\n            result.append(right[j]); j += 1\n    result.extend(left[i:])\n    result.extend(right[j:])\n    return result\n\nprint(merge_sort([38, 27, 43, 3, 9, 82, 10]))\n# Output: [3, 9, 10, 27, 38, 43, 82]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW022",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a simple Python RAG (Retrieval-Augmented Generation) function that searches a list of documents and injects the most relevant one into an LLM prompt.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\n\ndef simple_rag(query, documents, api_key):\n    # Step 1: Simple keyword-based retrieval (in production use vector search)\n    relevant = sorted(documents, \n        key=lambda doc: sum(word.lower() in doc.lower() \n                           for word in query.split()), \n        reverse=True)[0]\n    \n    # Step 2: Augment prompt with retrieved context\n    augmented_prompt = f\"\"\"\nContext: {relevant}\n\nQuestion: {query}\n\nAnswer based on the context above:\"\"\"\n    \n    # Step 3: Generate with LLM\n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}\n    payload = {'model': 'gpt-4', 'messages': [{'role': 'user', 'content': augmented_prompt}]}\n    response = requests.post(url, headers=headers, json=payload)\n    return response.json()['choices'][0]['message']['content']\n\ndocs = [\n    'Python is a high-level programming language known for simplicity.',\n    'Machine learning is a subset of AI that learns from data.',\n    'Neural networks are inspired by the human brain.'\n]\n# result = simple_rag('What is Python?', docs, 'sk-...')"
+         
+                    }
+       
+                },
+        {
+          "id": "CW023",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ linked list with insert at head, delete by value, and print all elements.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n\nstruct Node {\n    int data;\n    Node* next;\n    Node(int val) : data(val), next(nullptr) {}\n};\n\nclass LinkedList {\nprivate:\n    Node* head = nullptr;\n\npublic:\n    void insertHead(int val) {\n        Node* node = new Node(val);\n        node->next = head;\n        head = node;\n    }\n\n    void deleteByValue(int val) {\n        if (!head) return;\n        if (head->data == val) {\n            Node* temp = head;\n            head = head->next;\n            delete temp;\n            return;\n        }\n        Node* curr = head;\n        while (curr->next && curr->next->data != val)\n            curr = curr->next;\n        if (curr->next) {\n            Node* temp = curr->next;\n            curr->next = temp->next;\n            delete temp;\n        }\n    }\n\n    void print() const {\n        Node* curr = head;\n        while (curr) {\n            std::cout << curr->data;\n            if (curr->next) std::cout << ' -> ';\n            curr = curr->next;\n        }\n        std::cout << std::endl;\n    }\n};\n\nint main() {\n    LinkedList ll;\n    ll.insertHead(3); ll.insertHead(2); ll.insertHead(1);\n    ll.print();           // 1 -> 2 -> 3\n    ll.deleteByValue(2);\n    ll.print();           // 1 -> 3\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW024",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that uses `threading` to run two functions concurrently and waits for both to finish.",
+          "answer": {
+            "language": "python",
+            "code": "import threading\nimport time\n\ndef task1():\n    print('Task 1 started')\n    time.sleep(2)\n    print('Task 1 done')\n\ndef task2():\n    print('Task 2 started')\n    time.sleep(1)\n    print('Task 2 done')\n\ndef run_concurrent(func1, func2):\n    t1 = threading.Thread(target=func1)\n    t2 = threading.Thread(target=func2)\n    t1.start()\n    t2.start()\n    t1.join()\n    t2.join()\n    print('Both tasks completed')\n\nrun_concurrent(task1, task2)\n# Output order: Task1 starts, Task2 starts, Task2 done, Task1 done, Both tasks completed"
+         
+                    }
+       
+                },
+        {
+          "id": "CW025",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that validates an email address using regex.",
+          "answer": {
+            "language": "python",
+            "code": "import re\n\ndef is_valid_email(email):\n    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$'\n    return bool(re.match(pattern, email))\n\nprint(is_valid_email('user@example.com'))   # True\nprint(is_valid_email('invalid-email'))       # False\nprint(is_valid_email('test@.com'))           # False\nprint(is_valid_email('a@b.co'))              # True"
+         
+                    }
+       
+                },
+        {
+          "id": "CW026",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python function that streams OpenAI API responses token by token using Server-Sent Events.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\nimport json\n\ndef stream_openai(prompt, api_key):\n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {\n        'Authorization': f'Bearer {api_key}',\n        'Content-Type': 'application/json'\n    }\n    payload = {\n        'model': 'gpt-4',\n        'messages': [{'role': 'user', 'content': prompt}],\n        'stream': True\n    }\n    \n    with requests.post(url, headers=headers, json=payload, stream=True) as r:\n        r.raise_for_status()\n        for line in r.iter_lines():\n            if line:\n                line = line.decode('utf-8')\n                if line.startswith('data: '):\n                    data = line[6:]\n                    if data == '[DONE]':\n                        break\n                    chunk = json.loads(data)\n                    delta = chunk['choices'][0]['delta'].get('content', '')\n                    print(delta, end='', flush=True)\n    print()  # newline at end\n\n# stream_openai('Tell me a short story', 'sk-...')"
+         
+                    }
+       
+                },
+        {
+          "id": "CW027",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that uses `dataclasses` to create a `Person` class with name, age, and email fields.",
+          "answer": {
+            "language": "python",
+            "code": "from dataclasses import dataclass, field\nfrom typing import Optional\n\n@dataclass\nclass Person:\n    name: str\n    age: int\n    email: str\n    is_active: bool = True\n    tags: list = field(default_factory=list)\n\n    def greet(self):\n        return f'Hi, I am {self.name}, aged {self.age}.'\n\n    def __post_init__(self):\n        if self.age < 0:\n            raise ValueError('Age cannot be negative')\n\np = Person('Alice', 28, 'alice@example.com')\nprint(p)         # Person(name='Alice', age=28, ...)\nprint(p.greet()) # Hi, I am Alice, aged 28."
+         
+                    }
+       
+                },
+        {
+          "id": "CW028",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ function using std::sort and a custom comparator to sort a vector of strings by length.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n#include <vector>\n#include <string>\n#include <algorithm>\n\nint main() {\n    std::vector<std::string> words = {\"banana\", \"apple\", \"kiwi\", \"strawberry\", \"fig\"};\n    \n    std::sort(words.begin(), words.end(),\n        [](const std::string& a, const std::string& b) {\n            return a.length() < b.length();\n        });\n    \n    for (const auto& word : words) {\n        std::cout << word << ' ';\n    }\n    // Output: fig kiwi apple banana strawberry\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW029",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that reads a CSV file using pandas, filters rows where a column 'score' > 80, and returns the result as a list of dictionaries.",
+          "answer": {
+            "language": "python",
+            "code": "import pandas as pd\n\ndef get_high_scorers(filepath, threshold=80):\n    try:\n        df = pd.read_csv(filepath)\n        if 'score' not in df.columns:\n            raise ValueError('Column score not found')\n        filtered = df[df['score'] > threshold]\n        return filtered.to_dict(orient='records')\n    except FileNotFoundError:\n        print(f'File not found: {filepath}')\n        return []\n\n# high_scorers = get_high_scorers('students.csv')\n# print(high_scorers)"
+         
+                    }
+       
+                },
+        {
+          "id": "CW030",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function `retry` that retries a failing function up to n times with an optional delay between attempts.",
+          "answer": {
+            "language": "python",
+            "code": "import time\n\ndef retry(func, max_attempts=3, delay=1.0):\n    def wrapper(*args, **kwargs):\n        last_exception = None\n        for attempt in range(1, max_attempts + 1):\n            try:\n                return func(*args, **kwargs)\n            except Exception as e:\n                last_exception = e\n                print(f'Attempt {attempt} failed: {e}')\n                if attempt < max_attempts:\n                    time.sleep(delay)\n        raise last_exception\n    return wrapper\n\n# Usage:\nimport random\n\n@retry(max_attempts=3, delay=0.5)\ndef flaky_api_call():\n    if random.random() < 0.7:\n        raise ConnectionError('Network error')\n    return 'Success!'\n\ntry:\n    result = flaky_api_call()\n    print(result)\nexcept Exception as e:\n    print(f'All attempts failed: {e}')"
+         
+                    }
+       
+                },
+        {
+          "id": "CW031",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that checks if two strings are anagrams of each other.",
+          "answer": {
+            "language": "python",
+            "code": "from collections import Counter\n\ndef is_anagram(s1, s2):\n    # Remove spaces and convert to lowercase\n    s1 = s1.replace(' ', '').lower()\n    s2 = s2.replace(' ', '').lower()\n    return Counter(s1) == Counter(s2)\n\nprint(is_anagram('listen', 'silent'))  # True\nprint(is_anagram('hello', 'world'))    # False\nprint(is_anagram('Astronomer', 'Moon starer'))  # True"
+         
+                    }
+       
+                },
+        {
+          "id": "CW032",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ program demonstrating RAII by creating a `FileHandler` class that opens a file in the constructor and closes it in the destructor.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n#include <fstream>\n#include <string>\n#include <stdexcept>\n\nclass FileHandler {\nprivate:\n    std::fstream file;\n    std::string filename;\n\npublic:\n    FileHandler(const std::string& fname, std::ios::openmode mode) \n        : filename(fname) {\n        file.open(fname, mode);\n        if (!file.is_open()) {\n            throw std::runtime_error('Cannot open file: ' + fname);\n        }\n        std::cout << 'File opened: ' << fname << std::endl;\n    }\n\n    void write(const std::string& content) {\n        file << content;\n    }\n\n    ~FileHandler() {\n        if (file.is_open()) {\n            file.close();\n            std::cout << 'File closed: ' << filename << std::endl;\n        }\n    }\n};\n\nint main() {\n    try {\n        FileHandler fh('output.txt', std::ios::out);\n        fh.write('Hello, RAII!');\n    } // Destructor automatically closes file here\n    catch (const std::exception& e) {\n        std::cerr << e.what() << std::endl;\n    }\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW033",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that groups a list of dictionaries by a given key.",
+          "answer": {
+            "language": "python",
+            "code": "from collections import defaultdict\n\ndef group_by(items, key):\n    groups = defaultdict(list)\n    for item in items:\n        groups[item[key]].append(item)\n    return dict(groups)\n\nstudents = [\n    {'name': 'Alice', 'grade': 'A'},\n    {'name': 'Bob', 'grade': 'B'},\n    {'name': 'Carol', 'grade': 'A'},\n    {'name': 'Dave', 'grade': 'B'},\n    {'name': 'Eve', 'grade': 'C'},\n]\n\nresult = group_by(students, 'grade')\nprint(result)\n# {'A': [Alice, Carol], 'B': [Bob, Dave], 'C': [Eve]}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW034",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a FastAPI endpoint that accepts a user's question and returns an AI-generated answer using the OpenAI API.",
+          "answer": {
+            "language": "python",
+            "code": "from fastapi import FastAPI, HTTPException\nfrom pydantic import BaseModel\nimport requests\nimport os\n\napp = FastAPI()\n\nclass QuestionRequest(BaseModel):\n    question: str\n\nclass AnswerResponse(BaseModel):\n    answer: str\n\n@app.post('/ask', response_model=AnswerResponse)\nasync def ask_ai(request: QuestionRequest):\n    api_key = os.getenv('OPENAI_API_KEY')\n    if not api_key:\n        raise HTTPException(status_code=500, detail='API key not configured')\n    \n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}\n    payload = {\n        'model': 'gpt-4',\n        'messages': [{'role': 'user', 'content': request.question}]\n    }\n    \n    response = requests.post(url, headers=headers, json=payload)\n    if response.status_code != 200:\n        raise HTTPException(status_code=502, detail='AI service error')\n    \n    answer = response.json()['choices'][0]['message']['content']\n    return AnswerResponse(answer=answer)\n\n# Run with: uvicorn main:app --reload"
+         
+                    }
+       
+                },
+        {
+          "id": "CW035",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to implement a simple LRU (Least Recently Used) cache using `functools.lru_cache`.",
+          "answer": {
+            "language": "python",
+            "code": "from functools import lru_cache\n\n@lru_cache(maxsize=128)\ndef expensive_computation(n):\n    \"\"\"Cached Fibonacci as an example of expensive computation\"\"\"\n    if n < 2:\n        return n\n    return expensive_computation(n - 1) + expensive_computation(n - 2)\n\n# First call computes; subsequent calls with same arg use cache\nprint(expensive_computation(50))  # Very fast due to memoization\n\n# Cache stats:\nprint(expensive_computation.cache_info())\n# CacheInfo(hits=48, misses=51, maxsize=128, currsize=51)"
+         
+                    }
+       
+                },
+        {
+          "id": "CW036",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python async function using `asyncio` and `aiohttp` to fetch multiple URLs concurrently.",
+          "answer": {
+            "language": "python",
+            "code": "import asyncio\nimport aiohttp\n\nasync def fetch_url(session, url):\n    async with session.get(url) as response:\n        return {'url': url, 'status': response.status, 'content': await response.text()}\n\nasync def fetch_all(urls):\n    async with aiohttp.ClientSession() as session:\n        tasks = [fetch_url(session, url) for url in urls]\n        results = await asyncio.gather(*tasks, return_exceptions=True)\n    return results\n\nurls = [\n    'https://jsonplaceholder.typicode.com/todos/1',\n    'https://jsonplaceholder.typicode.com/todos/2',\n    'https://jsonplaceholder.typicode.com/todos/3',\n]\n\n# results = asyncio.run(fetch_all(urls))\n# for r in results:\n#     print(r['url'], r['status'])"
+         
+                    }
+       
+                },
+        {
+          "id": "CW037",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ function using smart pointers (`shared_ptr`) to manage a simple tree node structure.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n#include <memory>\n#include <vector>\n\nstruct TreeNode {\n    int val;\n    std::vector<std::shared_ptr<TreeNode>> children;\n\n    TreeNode(int v) : val(v) {}\n\n    void addChild(std::shared_ptr<TreeNode> child) {\n        children.push_back(child);\n    }\n\n    void print(int depth = 0) const {\n        std::cout << std::string(depth * 2, ' ') << val << std::endl;\n        for (const auto& child : children) {\n            child->print(depth + 1);\n        }\n    }\n};\n\nint main() {\n    auto root = std::make_shared<TreeNode>(1);\n    auto child1 = std::make_shared<TreeNode>(2);\n    auto child2 = std::make_shared<TreeNode>(3);\n    auto grandchild = std::make_shared<TreeNode>(4);\n\n    child1->addChild(grandchild);\n    root->addChild(child1);\n    root->addChild(child2);\n    root->print();\n    // Memory freed automatically when shared_ptrs go out of scope\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW038",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that chunks a list into smaller lists of a given size.",
+          "answer": {
+            "language": "python",
+            "code": "def chunk_list(lst, chunk_size):\n    if chunk_size <= 0:\n        raise ValueError('Chunk size must be positive')\n    return [lst[i:i + chunk_size] for i in range(0, len(lst), chunk_size)]\n\nprint(chunk_list([1,2,3,4,5,6,7,8,9,10], 3))\n# Output: [[1,2,3], [4,5,6], [7,8,9], [10]]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW039",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python class `ConversationBot` that maintains conversation history and calls the OpenAI API for each turn.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\n\nclass ConversationBot:\n    def __init__(self, api_key, system_prompt='You are a helpful assistant.'):\n        self.api_key = api_key\n        self.history = [\n            {'role': 'system', 'content': system_prompt}\n        ]\n\n    def chat(self, user_message):\n        self.history.append({'role': 'user', 'content': user_message})\n        \n        url = 'https://api.openai.com/v1/chat/completions'\n        headers = {\n            'Authorization': f'Bearer {self.api_key}',\n            'Content-Type': 'application/json'\n        }\n        payload = {'model': 'gpt-4', 'messages': self.history}\n        \n        response = requests.post(url, headers=headers, json=payload)\n        response.raise_for_status()\n        \n        reply = response.json()['choices'][0]['message']['content']\n        self.history.append({'role': 'assistant', 'content': reply})\n        return reply\n\n    def reset(self):\n        self.history = [self.history[0]]  # Keep system prompt\n\n# bot = ConversationBot(api_key='sk-...')\n# print(bot.chat('What is Python?'))\n# print(bot.chat('Can you give me an example?'))  # Remembers context"
+         
+                    }
+       
+                },
+        {
+          "id": "CW040",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that implements a simple rate limiter allowing at most N calls per second.",
+          "answer": {
+            "language": "python",
+            "code": "import time\nfrom collections import deque\n\nclass RateLimiter:\n    def __init__(self, max_calls, period=1.0):\n        self.max_calls = max_calls\n        self.period = period\n        self.calls = deque()\n\n    def __call__(self, func):\n        def wrapper(*args, **kwargs):\n            now = time.monotonic()\n            # Remove calls outside the window\n            while self.calls and now - self.calls[0] >= self.period:\n                self.calls.popleft()\n            if len(self.calls) >= self.max_calls:\n                sleep_time = self.period - (now - self.calls[0])\n                time.sleep(sleep_time)\n            self.calls.append(time.monotonic())\n            return func(*args, **kwargs)\n        return wrapper\n\n@RateLimiter(max_calls=3, period=1.0)\ndef api_call(n):\n    print(f'API call {n} at {time.time():.2f}')\n\nfor i in range(6):\n    api_call(i)  # Only 3 calls per second allowed"
+         
+                    }
+       
+                },
+        {
+          "id": "CW041",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to find all prime numbers up to n using the Sieve of Eratosthenes.",
+          "answer": {
+            "language": "python",
+            "code": "def sieve_of_eratosthenes(n):\n    if n < 2:\n        return []\n    is_prime = [True] * (n + 1)\n    is_prime[0] = is_prime[1] = False\n    for i in range(2, int(n**0.5) + 1):\n        if is_prime[i]:\n            for j in range(i*i, n + 1, i):\n                is_prime[j] = False\n    return [i for i, prime in enumerate(is_prime) if prime]\n\nprint(sieve_of_eratosthenes(30))\n# Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW042",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ program that reads integers from stdin until EOF and prints their sum and average.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n\nint main() {\n    int num;\n    long long sum = 0;\n    int count = 0;\n    \n    while (std::cin >> num) {\n        sum += num;\n        ++count;\n    }\n    \n    if (count == 0) {\n        std::cout << 'No numbers entered.' << std::endl;\n    } else {\n        double average = static_cast<double>(sum) / count;\n        std::cout << 'Count: ' << count << std::endl;\n        std::cout << 'Sum: ' << sum << std::endl;\n        std::cout << 'Average: ' << average << std::endl;\n    }\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW043",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function using `argparse` to create a command-line tool that accepts a filename and line count, then prints the last N lines of the file.",
+          "answer": {
+            "language": "python",
+            "code": "import argparse\n\ndef tail(filename, n):\n    try:\n        with open(filename, 'r') as f:\n            lines = f.readlines()\n        return lines[-n:]\n    except FileNotFoundError:\n        print(f'Error: {filename} not found')\n        return []\n\ndef main():\n    parser = argparse.ArgumentParser(description='Print last N lines of a file')\n    parser.add_argument('filename', help='File to read')\n    parser.add_argument('-n', '--lines', type=int, default=10,\n                        help='Number of lines to print (default: 10)')\n    args = parser.parse_args()\n    \n    lines = tail(args.filename, args.lines)\n    for line in lines:\n        print(line, end='')\n\nif __name__ == '__main__':\n    main()\n\n# Usage: python tail.py myfile.txt -n 5"
+         
+                    }
+       
+                },
+        {
+          "id": "CW044",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python function that takes an image path, converts it to base64, and sends it to the OpenAI Vision API for analysis.",
+          "answer": {
+            "language": "python",
+            "code": "import base64\nimport requests\n\ndef analyze_image(image_path, question, api_key):\n    # Read and encode image\n    with open(image_path, 'rb') as f:\n        image_data = base64.b64encode(f.read()).decode('utf-8')\n    \n    # Determine media type from extension\n    ext = image_path.rsplit('.', 1)[-1].lower()\n    media_type = f'image/{ext}' if ext != 'jpg' else 'image/jpeg'\n    \n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}\n    payload = {\n        'model': 'gpt-4o',\n        'messages': [{\n            'role': 'user',\n            'content': [\n                {\n                    'type': 'image_url',\n                    'image_url': {'url': f'data:{media_type};base64,{image_data}'}\n                },\n                {'type': 'text', 'text': question}\n            ]\n        }]\n    }\n    \n    response = requests.post(url, headers=headers, json=payload)\n    response.raise_for_status()\n    return response.json()['choices'][0]['message']['content']\n\n# description = analyze_image('photo.jpg', 'What is in this image?', 'sk-...')"
+         
+                    }
+       
+                },
+        {
+          "id": "CW045",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that implements a simple in-memory key-value store with TTL (time to live) expiry.",
+          "answer": {
+            "language": "python",
+            "code": "import time\n\nclass TTLCache:\n    def __init__(self):\n        self._store = {}  # key -> (value, expiry_time)\n\n    def set(self, key, value, ttl_seconds):\n        expiry = time.monotonic() + ttl_seconds\n        self._store[key] = (value, expiry)\n\n    def get(self, key):\n        if key not in self._store:\n            return None\n        value, expiry = self._store[key]\n        if time.monotonic() > expiry:\n            del self._store[key]\n            return None  # Expired\n        return value\n\n    def delete(self, key):\n        self._store.pop(key, None)\n\n# Usage:\ncache = TTLCache()\ncache.set('api_response', {'data': 'result'}, ttl_seconds=5)\nprint(cache.get('api_response'))  # Returns value\ntime.sleep(6)\nprint(cache.get('api_response'))  # Returns None (expired)"
+         
+                    }
+       
+                },
+        {
+          "id": "CW046",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that converts a nested dictionary to a flat dictionary with dot-notation keys.",
+          "answer": {
+            "language": "python",
+            "code": "def flatten_dict(d, parent_key='', sep='.'):\n    items = {}\n    for key, value in d.items():\n        new_key = f'{parent_key}{sep}{key}' if parent_key else key\n        if isinstance(value, dict):\n            items.update(flatten_dict(value, new_key, sep))\n        else:\n            items[new_key] = value\n    return items\n\nnested = {\n    'user': {\n        'name': 'Alice',\n        'address': {\n            'city': 'Kathmandu',\n            'zip': '44600'\n        }\n    },\n    'active': True\n}\n\nprint(flatten_dict(nested))\n# {'user.name': 'Alice', 'user.address.city': 'Kathmandu', 'user.address.zip': '44600', 'active': True}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW047",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to serialize and deserialize a Python object to/from JSON, handling datetime objects.",
+          "answer": {
+            "language": "python",
+            "code": "import json\nfrom datetime import datetime\n\nclass DateTimeEncoder(json.JSONEncoder):\n    def default(self, obj):\n        if isinstance(obj, datetime):\n            return obj.isoformat()\n        return super().default(obj)\n\ndef serialize(obj):\n    return json.dumps(obj, cls=DateTimeEncoder, indent=2)\n\ndef deserialize(json_str, date_fields=None):\n    data = json.loads(json_str)\n    if date_fields:\n        for field in date_fields:\n            if field in data:\n                data[field] = datetime.fromisoformat(data[field])\n    return data\n\n# Usage:\nrecord = {'name': 'Alice', 'created_at': datetime.now(), 'score': 95}\njson_str = serialize(record)\nprint(json_str)\nrestored = deserialize(json_str, date_fields=['created_at'])\nprint(type(restored['created_at']))  # <class 'datetime.datetime'>"
+         
+                    }
+       
+                },
+        {
+          "id": "CW048",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ function that uses `std::map` to count character frequency in a string.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n#include <map>\n#include <string>\n\nstd::map<char, int> charFrequency(const std::string& s) {\n    std::map<char, int> freq;\n    for (char c : s) {\n        freq[c]++;\n    }\n    return freq;\n}\n\nint main() {\n    auto freq = charFrequency('hello world');\n    for (const auto& [ch, count] : freq) {\n        if (ch != ' ') {\n            std::cout << ch << ': ' << count << std::endl;\n        }\n    }\n    return 0;\n}\n// Output: d:1, e:1, h:1, l:3, o:2, r:1, w:1"
+         
+                    }
+       
+                },
+        {
+          "id": "CW049",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that uses `itertools.groupby` to group consecutive identical elements.",
+          "answer": {
+            "language": "python",
+            "code": "from itertools import groupby\n\ndef run_length_encode(lst):\n    \"\"\"Encode list as (value, count) pairs for consecutive groups\"\"\"\n    return [(key, len(list(group))) for key, group in groupby(lst)]\n\nprint(run_length_encode([1,1,1,2,2,3,3,3,3,1,1]))\n# Output: [(1, 3), (2, 2), (3, 4), (1, 2)]\n\ndef run_length_decode(encoded):\n    result = []\n    for val, count in encoded:\n        result.extend([val] * count)\n    return result\n\nprint(run_length_decode([(1, 3), (2, 2), (3, 4)]))\n# Output: [1, 1, 1, 2, 2, 3, 3, 3, 3]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW050",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python function that implements exponential backoff retry logic when calling an AI API that may return 429 (rate limit) errors.",
+          "answer": {
+            "language": "python",
+            "code": "import time\nimport requests\n\ndef call_api_with_backoff(url, headers, payload, max_retries=5):\n    for attempt in range(max_retries):\n        response = requests.post(url, headers=headers, json=payload)\n        \n        if response.status_code == 200:\n            return response.json()\n        \n        elif response.status_code == 429:\n            # Exponential backoff: 1s, 2s, 4s, 8s, 16s\n            wait_time = 2 ** attempt\n            retry_after = response.headers.get('Retry-After', wait_time)\n            print(f'Rate limited. Waiting {retry_after}s before retry {attempt + 1}/{max_retries}')\n            time.sleep(float(retry_after))\n        \n        elif response.status_code >= 500:\n            wait_time = 2 ** attempt\n            print(f'Server error {response.status_code}. Retrying in {wait_time}s...')\n            time.sleep(wait_time)\n        \n        else:\n            response.raise_for_status()  # 4xx errors (except 429) are not retried\n    \n    raise Exception(f'API call failed after {max_retries} attempts')\n\n# Usage with OpenAI:\n# result = call_api_with_backoff(\n#     'https://api.openai.com/v1/chat/completions',\n#     headers={'Authorization': 'Bearer sk-...'},\n#     payload={'model': 'gpt-4', 'messages': [...]}\n# )"
+         
+                    }
+       
+                },
+        {
+          "id": "CW051",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to implement a Graph using an adjacency list and a BFS traversal.",
+          "answer": {
+            "language": "python",
+            "code": "from collections import defaultdict, deque\n\nclass Graph:\n    def __init__(self):\n        self.adj = defaultdict(list)\n\n    def add_edge(self, u, v):\n        self.adj[u].append(v)\n        self.adj[v].append(u)  # undirected\n\n    def bfs(self, start):\n        visited = set()\n        queue = deque([start])\n        visited.add(start)\n        order = []\n        while queue:\n            node = queue.popleft()\n            order.append(node)\n            for neighbor in self.adj[node]:\n                if neighbor not in visited:\n                    visited.add(neighbor)\n                    queue.append(neighbor)\n        return order\n\ng = Graph()\ng.add_edge(0, 1); g.add_edge(0, 2); g.add_edge(1, 3); g.add_edge(2, 4)\nprint(g.bfs(0))  # [0, 1, 2, 3, 4]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW052",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ function using move semantics to efficiently transfer a large vector between functions.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n#include <vector>\n#include <string>\n\nstd::vector<std::string> createLargeVector() {\n    std::vector<std::string> v;\n    for (int i = 0; i < 1000000; ++i) {\n        v.push_back('Item ' + std::to_string(i));\n    }\n    return v;  // NRVO or move semantics applied here\n}\n\nvoid processVector(std::vector<std::string>&& v) {\n    // Takes ownership via move — no copy\n    std::cout << 'Processing ' << v.size() << ' items' << std::endl;\n    // v will be destroyed at end of this function\n}\n\nint main() {\n    auto bigVec = createLargeVector();       // No copy — NRVO\n    processVector(std::move(bigVec));        // Transfer ownership — no copy\n    // bigVec is now in a valid but unspecified state\n    std::cout << 'After move, size: ' << bigVec.size() << std::endl; // 0\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW053",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that parses a URL and extracts its components (scheme, host, path, query params).",
+          "answer": {
+            "language": "python",
+            "code": "from urllib.parse import urlparse, parse_qs\n\ndef parse_url(url):\n    parsed = urlparse(url)\n    query_params = parse_qs(parsed.query)\n    # parse_qs returns lists; simplify single-value params\n    params = {k: v[0] if len(v) == 1 else v for k, v in query_params.items()}\n    return {\n        'scheme': parsed.scheme,\n        'host': parsed.netloc,\n        'path': parsed.path,\n        'query_params': params,\n        'fragment': parsed.fragment\n    }\n\nresult = parse_url('https://api.example.com/v1/users?page=2&limit=10&sort=name#section')\nprint(result)\n# {'scheme': 'https', 'host': 'api.example.com', 'path': '/v1/users',\n#  'query_params': {'page': '2', 'limit': '10', 'sort': 'name'}, 'fragment': 'section'}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW054",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python function that implements a simple AI-powered document classifier using the OpenAI API.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\nimport json\n\ndef classify_document(text, categories, api_key):\n    \"\"\"\n    Classify a document into one of the given categories using AI.\n    Returns {'category': str, 'confidence': str, 'reason': str}\n    \"\"\"\n    categories_str = ', '.join(categories)\n    prompt = f\"\"\"Classify the following text into exactly one of these categories: {categories_str}\n\nText: {text[:2000]}  # Truncate to avoid token limits\n\nRespond with JSON only in this format:\n{{\"category\": \"<chosen category>\", \"confidence\": \"high/medium/low\", \"reason\": \"<brief explanation>\"}}\"\"\"\n    \n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}\n    payload = {\n        'model': 'gpt-4',\n        'messages': [{'role': 'user', 'content': prompt}],\n        'temperature': 0  # Deterministic for classification\n    }\n    \n    response = requests.post(url, headers=headers, json=payload)\n    response.raise_for_status()\n    \n    raw = response.json()['choices'][0]['message']['content']\n    return json.loads(raw)\n\n# result = classify_document(\n#     'The quarterly earnings exceeded analyst expectations...',\n#     ['Finance', 'Technology', 'Health', 'Politics'],\n#     api_key='sk-...'\n# )"
+         
+                    }
+       
+                },
+        {
+          "id": "CW055",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to implement depth-first search (DFS) on a graph represented as an adjacency list.",
+          "answer": {
+            "language": "python",
+            "code": "def dfs(graph, start, visited=None):\n    if visited is None:\n        visited = set()\n    visited.add(start)\n    result = [start]\n    for neighbor in graph.get(start, []):\n        if neighbor not in visited:\n            result.extend(dfs(graph, neighbor, visited))\n    return result\n\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['A', 'D', 'E'],\n    'C': ['A', 'F'],\n    'D': ['B'],\n    'E': ['B', 'F'],\n    'F': ['C', 'E']\n}\n\nprint(dfs(graph, 'A'))  # ['A', 'B', 'D', 'E', 'F', 'C']"
+         
+                    }
+       
+                },
+        {
+          "id": "CW056",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python property and setter that validates a Person's age must be between 0 and 150.",
+          "answer": {
+            "language": "python",
+            "code": "class Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age  # Uses the setter\n\n    @property\n    def age(self):\n        return self._age\n\n    @age.setter\n    def age(self, value):\n        if not isinstance(value, int):\n            raise TypeError('Age must be an integer')\n        if not (0 <= value <= 150):\n            raise ValueError(f'Age must be between 0 and 150, got {value}')\n        self._age = value\n\n    def __repr__(self):\n        return f'Person(name={self.name!r}, age={self._age})'\n\np = Person('Alice', 30)\nprint(p)          # Person(name='Alice', age=30)\np.age = 25\nprint(p.age)      # 25\np.age = -5        # Raises ValueError"
+         
+                    }
+       
+                },
+        {
+          "id": "CW057",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ class with an overloaded `+` operator for a 2D Vector.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n\nclass Vector2D {\npublic:\n    double x, y;\n\n    Vector2D(double x = 0, double y = 0) : x(x), y(y) {}\n\n    Vector2D operator+(const Vector2D& other) const {\n        return Vector2D(x + other.x, y + other.y);\n    }\n\n    Vector2D operator*(double scalar) const {\n        return Vector2D(x * scalar, y * scalar);\n    }\n\n    double magnitude() const {\n        return std::sqrt(x*x + y*y);\n    }\n\n    friend std::ostream& operator<<(std::ostream& os, const Vector2D& v) {\n        os << '(' << v.x << ', ' << v.y << ')';\n        return os;\n    }\n};\n\nint main() {\n    Vector2D a(1, 2), b(3, 4);\n    Vector2D c = a + b;\n    std::cout << c << std::endl;            // (4, 6)\n    std::cout << c.magnitude() << std::endl; // 7.211...\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW058",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that monitors a directory for new files using polling and calls a callback when one is found.",
+          "answer": {
+            "language": "python",
+            "code": "import os\nimport time\n\ndef watch_directory(path, callback, poll_interval=1.0):\n    \"\"\"\n    Watches a directory and calls callback(filepath) when a new file appears.\n    \"\"\"\n    known_files = set(os.listdir(path))\n    print(f'Watching {path} for new files...')\n    \n    try:\n        while True:\n            time.sleep(poll_interval)\n            current_files = set(os.listdir(path))\n            new_files = current_files - known_files\n            \n            for filename in new_files:\n                filepath = os.path.join(path, filename)\n                callback(filepath)\n            \n            known_files = current_files\n    except KeyboardInterrupt:\n        print('Stopped watching.')\n\n# Usage:\ndef on_new_file(filepath):\n    print(f'New file detected: {filepath}')\n\n# watch_directory('/tmp/uploads', on_new_file)"
+         
+                    }
+       
+                },
+        {
+          "id": "CW059",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that implements an LRU cache from scratch using an OrderedDict.",
+          "answer": {
+            "language": "python",
+            "code": "from collections import OrderedDict\n\nclass LRUCache:\n    def __init__(self, capacity):\n        self.capacity = capacity\n        self.cache = OrderedDict()\n\n    def get(self, key):\n        if key not in self.cache:\n            return -1\n        self.cache.move_to_end(key)  # Mark as recently used\n        return self.cache[key]\n\n    def put(self, key, value):\n        if key in self.cache:\n            self.cache.move_to_end(key)\n        self.cache[key] = value\n        if len(self.cache) > self.capacity:\n            self.cache.popitem(last=False)  # Remove LRU item\n\n# Usage:\ncache = LRUCache(3)\ncache.put(1, 'a'); cache.put(2, 'b'); cache.put(3, 'c')\nprint(cache.get(1))  # 'a' (now most recently used)\ncache.put(4, 'd')    # Evicts key 2 (LRU)\nprint(cache.get(2))  # -1 (evicted)"
+         
+                    }
+       
+                },
+        {
+          "id": "CW060",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python function that uses the OpenAI function calling (tools) feature to extract structured data from unstructured text.",
+          "answer": {
+            "language": "python",
+            "code": "import requests\nimport json\n\ndef extract_person_data(text, api_key):\n    tools = [{\n        'type': 'function',\n        'function': {\n            'name': 'save_person',\n            'description': 'Save extracted person information',\n            'parameters': {\n                'type': 'object',\n                'properties': {\n                    'name': {'type': 'string'},\n                    'age': {'type': 'integer'},\n                    'email': {'type': 'string'},\n                    'profession': {'type': 'string'}\n                },\n                'required': ['name']\n            }\n        }\n    }]\n\n    url = 'https://api.openai.com/v1/chat/completions'\n    headers = {'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json'}\n    payload = {\n        'model': 'gpt-4',\n        'messages': [{'role': 'user', 'content': f'Extract person info from: {text}'}],\n        'tools': tools,\n        'tool_choice': 'auto'\n    }\n\n    response = requests.post(url, headers=headers, json=payload)\n    tool_call = response.json()['choices'][0]['message']['tool_calls'][0]\n    return json.loads(tool_call['function']['arguments'])\n\n# result = extract_person_data(\n#     'John Smith, 34, works as a software engineer. Reach him at john@example.com',\n#     api_key='sk-...'\n# )\n# print(result)  # {'name': 'John Smith', 'age': 34, 'email': 'john@example.com', 'profession': 'software engineer'}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW061",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python class implementing the Observer design pattern.",
+          "answer": {
+            "language": "python",
+            "code": "from abc import ABC, abstractmethod\n\nclass Observer(ABC):\n    @abstractmethod\n    def update(self, event, data):\n        pass\n\nclass Subject:\n    def __init__(self):\n        self._observers = []\n\n    def subscribe(self, observer):\n        self._observers.append(observer)\n\n    def unsubscribe(self, observer):\n        self._observers.remove(observer)\n\n    def notify(self, event, data=None):\n        for observer in self._observers:\n            observer.update(event, data)\n\nclass Logger(Observer):\n    def update(self, event, data):\n        print(f'[LOG] Event: {event}, Data: {data}')\n\nclass AlertSystem(Observer):\n    def update(self, event, data):\n        if event == 'ERROR':\n            print(f'[ALERT] Critical error detected: {data}')\n\n# Usage:\nsubject = Subject()\nlogger = Logger()\nalert = AlertSystem()\nsubject.subscribe(logger)\nsubject.subscribe(alert)\n\nsubject.notify('INFO', 'System started')\nsubject.notify('ERROR', 'Disk full')"
+         
+                    }
+       
+                },
+        {
+          "id": "CW062",
+          "type": "code_writing",
+          "topic": "C++",
+          "question": "Write a C++ function using `std::thread` to compute partial sums of a large array in parallel.",
+          "answer": {
+            "language": "cpp",
+            "code": "#include <iostream>\n#include <vector>\n#include <thread>\n#include <numeric>\n\nvoid partial_sum(const std::vector<int>& arr, int start, int end, long long& result) {\n    result = 0;\n    for (int i = start; i < end; ++i) {\n        result += arr[i];\n    }\n}\n\nlong long parallel_sum(const std::vector<int>& arr, int num_threads = 4) {\n    int n = arr.size();\n    int chunk = n / num_threads;\n    std::vector<std::thread> threads;\n    std::vector<long long> results(num_threads, 0);\n\n    for (int i = 0; i < num_threads; ++i) {\n        int start = i * chunk;\n        int end = (i == num_threads - 1) ? n : start + chunk;\n        threads.emplace_back(partial_sum, std::ref(arr), start, end, std::ref(results[i]));\n    }\n\n    for (auto& t : threads) t.join();\n\n    long long total = 0;\n    for (auto r : results) total += r;\n    return total;\n}\n\nint main() {\n    std::vector<int> arr(1000000, 1);  // 1 million 1s\n    std::cout << 'Sum: ' << parallel_sum(arr) << std::endl;  // 1000000\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "CW063",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function to implement quicksort.",
+          "answer": {
+            "language": "python",
+            "code": "def quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    \n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    \n    return quicksort(left) + middle + quicksort(right)\n\nprint(quicksort([3, 6, 8, 10, 1, 2, 1]))\n# Output: [1, 1, 2, 3, 6, 8, 10]"
+         
+                    }
+       
+                },
+        {
+          "id": "CW064",
+          "type": "code_writing",
+          "topic": "Python/AI",
+          "question": "Write a Python function that builds a simple prompt template system with variable substitution for AI prompts.",
+          "answer": {
+            "language": "python",
+            "code": "class PromptTemplate:\n    def __init__(self, template):\n        self.template = template\n        # Extract variable names between {{ }}\n        import re\n        self.variables = re.findall(r'\\{\\{(\\w+)\\}\\}', template)\n\n    def format(self, **kwargs):\n        # Check all required variables are provided\n        missing = [v for v in self.variables if v not in kwargs]\n        if missing:\n            raise ValueError(f'Missing variables: {missing}')\n        \n        result = self.template\n        for key, value in kwargs.items():\n            result = result.replace(f'{{{{{key}}}}}', str(value))\n        return result\n\n# Usage:\ntemplate = PromptTemplate(\n    'You are a {{role}}. The user is asking about {{topic}}.\\n'\n    'Please provide a {{format}} response.'\n)\n\nprompt = template.format(\n    role='Python expert',\n    topic='decorators',\n    format='detailed'\n)\nprint(prompt)\n# You are a Python expert. The user is asking about decorators.\n# Please provide a detailed response."
+         
+                    }
+       
+                },
+        {
+          "id": "CW065",
+          "type": "code_writing",
+          "topic": "Python",
+          "question": "Write a Python function that implements a simple pub/sub event system.",
+          "answer": {
+            "language": "python",
+            "code": "from collections import defaultdict\nfrom typing import Callable\n\nclass EventBus:\n    def __init__(self):\n        self._subscribers = defaultdict(list)\n\n    def subscribe(self, event_name, callback: Callable):\n        self._subscribers[event_name].append(callback)\n        return lambda: self._subscribers[event_name].remove(callback)  # Returns unsubscribe func\n\n    def publish(self, event_name, *args, **kwargs):\n        for callback in self._subscribers[event_name]:\n            callback(*args, **kwargs)\n\n    def once(self, event_name, callback: Callable):\n        def handler(*args, **kwargs):\n            callback(*args, **kwargs)\n            self._subscribers[event_name].remove(handler)\n        self._subscribers[event_name].append(handler)\n\n# Usage:\nbus = EventBus()\nunsubscribe = bus.subscribe('user.login', lambda user: print(f'{user} logged in'))\nbus.subscribe('user.login', lambda user: print(f'Welcome email sent to {user}'))\nbus.once('user.login', lambda user: print(f'First login bonus for {user}!'))\n\nbus.publish('user.login', 'Alice')\nbus.publish('user.login', 'Bob')  # 'once' handler not called again\nunsubscribe()  # Remove first subscriber"
+         
+                    }
+       
+                }
+     
+            ]
+   
+        },
+    "debugging": {
+      "description": "Debugging Questions (35 Questions)",
+      "questions": [
+        {
+          "id": "DBG001",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug in the following code:\n\n```python\ndef calculate_average(numbers):\n    total = 0\n    for num in numbers:\n        total += num\n    return total / len(numbers)\n\nresult = calculate_average([])\nprint(result)\n```",
+          "bug": "ZeroDivisionError when the input list is empty.",
+          "answer": {
+            "explanation": "The function crashes with ZeroDivisionError when passed an empty list because len([]) == 0.",
+            "fixed_code": "def calculate_average(numbers):\n    if not numbers:\n        return 0  # or raise ValueError('Cannot average empty list')\n    total = 0\n    for num in numbers:\n        total += num\n    return total / len(numbers)\n\nresult = calculate_average([])\nprint(result)  # 0"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG002",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef multiply_list(items, multiplier=1):\n    result = []\n    for item in items:\n        result.append(item * multiplier)\n    return result\n\nprint(multiply_list([1, 2, 3]))\nprint(multiply_list([4, 5, 6], 2))\nprint(multiply_list([7, 8, 9], 0))\n```\n\nThe third call should return [0, 0, 0] but something seems off — verify correctness.",
+          "bug": "No actual bug — code is correct. Tests understanding: multiply by 0 gives [0,0,0], which is correct.",
+          "answer": {
+            "explanation": "This code is actually correct. multiply_list([7,8,9], 0) returns [0, 0, 0] because 7*0=0, 8*0=0, 9*0=0. The question tests whether candidates can identify when code is correct without a bug.",
+            "fixed_code": "# Code is correct as written. Output:\n# [1, 2, 3]\n# [8, 10, 12]\n# [0, 0, 0]"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG003",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef remove_duplicates(lst):\n    for i in range(len(lst)):\n        if lst[i] in lst[i+1:]:\n            lst.remove(lst[i])\n    return lst\n\nprint(remove_duplicates([1, 2, 2, 3, 3, 4]))\n```",
+          "bug": "Modifying a list while iterating over it causes IndexError and incorrect results.",
+          "answer": {
+            "explanation": "Never modify a list while iterating over it by index — it causes skipped elements and IndexError. Use a set or build a new list.",
+            "fixed_code": "def remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in seen:\n            seen.add(item)\n            result.append(item)\n    return result\n\nprint(remove_duplicates([1, 2, 2, 3, 3, 4]))  # [1, 2, 3, 4]"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG004",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef append_to(element, to=[]):\n    to.append(element)\n    return to\n\nprint(append_to(1))\nprint(append_to(2))\nprint(append_to(3))\n```\n\nExpected: [1], [2], [3]. Actual output is different.",
+          "bug": "Mutable default argument — the default list is shared across all calls.",
+          "answer": {
+            "explanation": "Python creates the default list ONCE when the function is defined, not on each call. All calls without the 'to' argument share the same list object.",
+            "fixed_code": "def append_to(element, to=None):\n    if to is None:\n        to = []\n    to.append(element)\n    return to\n\nprint(append_to(1))  # [1]\nprint(append_to(2))  # [2]\nprint(append_to(3))  # [3]"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG005",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nclass Counter:\n    count = 0\n    \n    def increment(self):\n        count += 1\n    \n    def get_count(self):\n        return count\n\nc = Counter()\nc.increment()\nprint(c.get_count())\n```",
+          "bug": "UnboundLocalError — 'count' should be 'self.count' to access instance/class attribute.",
+          "answer": {
+            "explanation": "Inside a method, you must use self.attribute to access instance attributes. Bare 'count' treats it as a local variable, causing UnboundLocalError.",
+            "fixed_code": "class Counter:\n    def __init__(self):\n        self.count = 0\n    \n    def increment(self):\n        self.count += 1\n    \n    def get_count(self):\n        return self.count\n\nc = Counter()\nc.increment()\nprint(c.get_count())  # 1"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG006",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nimport requests\n\ndef get_user(user_id):\n    response = requests.get(f'https://api.example.com/users/{user_id}')\n    return response.json()['name']\n\nname = get_user(999)  # User doesn't exist\nprint(name)\n```",
+          "bug": "No error handling — if user 999 doesn't exist, API returns 404 and response.json() may not have 'name', causing KeyError or JSON parse error.",
+          "answer": {
+            "explanation": "Always check the HTTP status code before accessing the response body. A 404 response won't have the expected data.",
+            "fixed_code": "import requests\n\ndef get_user(user_id):\n    response = requests.get(f'https://api.example.com/users/{user_id}')\n    if response.status_code == 404:\n        return None\n    response.raise_for_status()\n    data = response.json()\n    return data.get('name')  # Use .get() to avoid KeyError\n\nname = get_user(999)\nif name:\n    print(name)\nelse:\n    print('User not found')"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG007",
+          "type": "debugging",
+          "topic": "C++",
+          "question": "Find and fix the bug:\n\n```cpp\n#include <iostream>\n\nint* createArray(int size) {\n    int arr[size];\n    for (int i = 0; i < size; i++) arr[i] = i;\n    return arr;\n}\n\nint main() {\n    int* p = createArray(5);\n    for (int i = 0; i < 5; i++)\n        std::cout << p[i] << ' ';\n    return 0;\n}\n```",
+          "bug": "Returning a pointer to a local (stack) array — undefined behavior as the array is destroyed when the function returns.",
+          "answer": {
+            "explanation": "Local arrays live on the stack. When the function returns, that memory is freed. The pointer now points to invalid memory (dangling pointer).",
+            "fixed_code": "#include <iostream>\n#include <memory>\n\nstd::unique_ptr<int[]> createArray(int size) {\n    auto arr = std::make_unique<int[]>(size);\n    for (int i = 0; i < size; i++) arr[i] = i;\n    return arr;  // Heap-allocated, safe to return\n}\n\nint main() {\n    auto p = createArray(5);\n    for (int i = 0; i < 5; i++)\n        std::cout << p[i] << ' ';  // 0 1 2 3 4\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG008",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef is_palindrome(s):\n    return s == s.reverse()\n\nprint(is_palindrome('racecar'))\n```",
+          "bug": "str.reverse() does not exist for strings. Strings are immutable and have no reverse() method. Only lists have .reverse().",
+          "answer": {
+            "explanation": "Python strings don't have a .reverse() method. Use slicing s[::-1] or reversed().",
+            "fixed_code": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('racecar'))  # True\nprint(is_palindrome('hello'))    # False"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG009",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndata = {'name': 'Alice', 'age': 30}\n\nif data['email']:\n    print(data['email'])\nelse:\n    print('No email')\n```",
+          "bug": "KeyError — 'email' key doesn't exist in the dictionary. Accessing non-existent keys raises KeyError.",
+          "answer": {
+            "explanation": "Use dict.get(key, default) to safely access dictionary keys that may not exist.",
+            "fixed_code": "data = {'name': 'Alice', 'age': 30}\n\nemail = data.get('email')\nif email:\n    print(email)\nelse:\n    print('No email')  # No email"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG010",
+          "type": "debugging",
+          "topic": "C++",
+          "question": "Find and fix the bug:\n\n```cpp\n#include <iostream>\n#include <string>\n\nclass Animal {\npublic:\n    std::string name;\n    Animal(std::string n) : name(n) {}\n    void speak() { std::cout << name << ' makes a sound' << std::endl; }\n};\n\nclass Dog : public Animal {\npublic:\n    Dog(std::string n) : Animal(n) {}\n    void speak() { std::cout << name << ' barks' << std::endl; }\n};\n\nvoid makeSpeak(Animal a) {\n    a.speak();\n}\n\nint main() {\n    Dog d('Rex');\n    makeSpeak(d);  // Expected: 'Rex barks'\n    return 0;\n}\n```",
+          "bug": "Object slicing — passing Dog by value to Animal parameter slices off the Dog part, calling Animal::speak().",
+          "answer": {
+            "explanation": "When passing a derived class by value to a base class parameter, the derived part is sliced off. Use references or pointers for polymorphism.",
+            "fixed_code": "#include <iostream>\n#include <string>\n\nclass Animal {\npublic:\n    std::string name;\n    Animal(std::string n) : name(n) {}\n    virtual void speak() { std::cout << name << ' makes a sound' << std::endl; }\n    virtual ~Animal() = default;\n};\n\nclass Dog : public Animal {\npublic:\n    Dog(std::string n) : Animal(n) {}\n    void speak() override { std::cout << name << ' barks' << std::endl; }\n};\n\nvoid makeSpeak(Animal& a) {  // Pass by reference!\n    a.speak();\n}\n\nint main() {\n    Dog d('Rex');\n    makeSpeak(d);  // Rex barks\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG011",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n)\n```",
+          "bug": "Infinite recursion — factorial(n) calls factorial(n) instead of factorial(n-1).",
+          "answer": {
+            "explanation": "The recursive call must decrease n by 1. factorial(n) calling factorial(n) causes infinite recursion and RecursionError.",
+            "fixed_code": "def factorial(n):\n    if n < 0:\n        raise ValueError('Negative input')\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)  # n-1, not n!\n\nprint(factorial(5))  # 120"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG012",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nimport json\n\ndef save_config(config, filename):\n    with open(filename, 'w') as f:\n        json.dumps(config, f)\n\nsave_config({'debug': True, 'port': 8080}, 'config.json')\n```",
+          "bug": "json.dumps() returns a string — it doesn't write to a file. json.dump() should be used for file writing.",
+          "answer": {
+            "explanation": "json.dumps() serializes to a string. json.dump() serializes directly to a file object.",
+            "fixed_code": "import json\n\ndef save_config(config, filename):\n    with open(filename, 'w') as f:\n        json.dump(config, f, indent=2)  # dump (not dumps) writes to file\n\nsave_config({'debug': True, 'port': 8080}, 'config.json')"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG013",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef process_items(items):\n    results = []\n    for i in range(len(items)):\n        results.append(items[i] * 2)\n    \n    # Bug: want to remove items > 10 from results\n    for item in results:\n        if item > 10:\n            results.remove(item)\n    return results\n\nprint(process_items([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))\n```",
+          "bug": "Modifying results list while iterating over it causes items to be skipped.",
+          "answer": {
+            "explanation": "When you remove from a list while iterating, indices shift and elements are skipped. Use list comprehension instead.",
+            "fixed_code": "def process_items(items):\n    results = [item * 2 for item in items]\n    results = [item for item in results if item <= 10]\n    return results\n\nprint(process_items([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))\n# Output: [2, 4, 6, 8, 10]"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG014",
+          "type": "debugging",
+          "topic": "C++",
+          "question": "Find and fix the bug:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int* ptr = new int(42);\n    std::cout << *ptr << std::endl;\n    delete ptr;\n    std::cout << *ptr << std::endl;  // Bug here\n    return 0;\n}\n```",
+          "bug": "Use-after-free — accessing ptr after delete is undefined behavior.",
+          "answer": {
+            "explanation": "After delete, the memory is freed. Accessing it is undefined behavior. Set pointer to nullptr after deleting.",
+            "fixed_code": "#include <iostream>\n\nint main() {\n    int* ptr = new int(42);\n    std::cout << *ptr << std::endl;  // 42\n    delete ptr;\n    ptr = nullptr;  // Prevent use-after-free\n    if (ptr) {\n        std::cout << *ptr << std::endl;\n    } else {\n        std::cout << 'Pointer is null' << std::endl;\n    }\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG015",
+          "type": "debugging",
+          "topic": "Python/API",
+          "question": "Find and fix the bug:\n\n```python\nimport requests\nimport os\n\ndef call_ai_api(prompt):\n    api_key = os.getenv('OPENAI_API_KEY')\n    headers = {'Content-Type': 'application/json'}\n    \n    response = requests.post(\n        'https://api.openai.com/v1/chat/completions',\n        headers=headers,\n        json={'model': 'gpt-4', 'messages': [{'role': 'user', 'content': prompt}]}\n    )\n    return response.json()\n\nresult = call_ai_api('Hello')\nprint(result)\n```",
+          "bug": "Missing Authorization header — the API key is retrieved but never used in the request headers.",
+          "answer": {
+            "explanation": "The API key is fetched with os.getenv() but never added to the request headers. The API will return a 401 Unauthorized error.",
+            "fixed_code": "import requests\nimport os\n\ndef call_ai_api(prompt):\n    api_key = os.getenv('OPENAI_API_KEY')\n    if not api_key:\n        raise ValueError('OPENAI_API_KEY not set')\n    \n    headers = {\n        'Content-Type': 'application/json',\n        'Authorization': f'Bearer {api_key}'  # <-- Fixed: add the key!\n    }\n    \n    response = requests.post(\n        'https://api.openai.com/v1/chat/completions',\n        headers=headers,\n        json={'model': 'gpt-4', 'messages': [{'role': 'user', 'content': prompt}]}\n    )\n    response.raise_for_status()\n    return response.json()\n\nresult = call_ai_api('Hello')\nprint(result)"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG016",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nclass Singleton:\n    instance = None\n    \n    def __new__(cls):\n        if cls.instance == None:\n            cls.instance = super().__new__(cls)\n        return instance\n```",
+          "bug": "NameError — returns bare 'instance' instead of 'cls.instance'.",
+          "answer": {
+            "explanation": "'instance' without 'cls.' is an undefined local variable. Must use cls.instance to access the class attribute.",
+            "fixed_code": "class Singleton:\n    instance = None\n    \n    def __new__(cls):\n        if cls.instance is None:  # Also: use 'is None' not '== None'\n            cls.instance = super().__new__(cls)\n        return cls.instance  # Fixed: cls.instance\n\ns1 = Singleton()\ns2 = Singleton()\nprint(s1 is s2)  # True — same object"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG017",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef get_first_char(s):\n    return s[0]\n\nwords = ['hello', '', 'world', None, 'python']\nfirsts = [get_first_char(w) for w in words]\nprint(firsts)\n```",
+          "bug": "IndexError on empty string '' and TypeError on None.",
+          "answer": {
+            "explanation": "s[0] on an empty string raises IndexError; calling [0] on None raises TypeError. Handle these cases explicitly.",
+            "fixed_code": "def get_first_char(s):\n    if not s:  # Handles None and empty string ''\n        return None\n    return s[0]\n\nwords = ['hello', '', 'world', None, 'python']\nfirsts = [get_first_char(w) for w in words]\nprint(firsts)  # ['h', None, 'w', None, 'p']"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG018",
+          "type": "debugging",
+          "topic": "C++",
+          "question": "Find and fix the bug:\n\n```cpp\n#include <iostream>\n#include <vector>\n\nint main() {\n    std::vector<int> v = {1, 2, 3, 4, 5};\n    \n    for (int i = 0; i <= v.size(); i++) {\n        std::cout << v[i] << ' ';\n    }\n    return 0;\n}\n```",
+          "bug": "Off-by-one error — loop condition should be i < v.size(), not i <= v.size(). Accessing v[5] is out of bounds.",
+          "answer": {
+            "explanation": "Vector indices go from 0 to size()-1. Using i <= size() accesses one past the end, causing undefined behavior.",
+            "fixed_code": "#include <iostream>\n#include <vector>\n\nint main() {\n    std::vector<int> v = {1, 2, 3, 4, 5};\n    \n    for (int i = 0; i < v.size(); i++) {  // < not <=\n        std::cout << v[i] << ' ';\n    }\n    // Or better: range-based for\n    for (const auto& val : v) {\n        std::cout << val << ' ';\n    }\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG019",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef divide(a, b):\n    try:\n        return a / b\n    except:\n        print('Error occurred')\n\nresult = divide(10, 0)\nprint(result + 5)\n```",
+          "bug": "Two bugs: (1) Bare 'except' catches everything including system exits. (2) Function returns None on error, so result + 5 raises TypeError.",
+          "answer": {
+            "explanation": "Always catch specific exceptions. Also, the function must return a valid value or re-raise the exception.",
+            "fixed_code": "def divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        print('Error: division by zero')\n        return None  # Explicitly return None\n\nresult = divide(10, 0)\nif result is not None:\n    print(result + 5)\nelse:\n    print('Cannot compute: division failed')"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG020",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nfrom threading import Thread\n\ncounter = 0\n\ndef increment():\n    global counter\n    for _ in range(100000):\n        counter += 1\n\nthreads = [Thread(target=increment) for _ in range(5)]\nfor t in threads: t.start()\nfor t in threads: t.join()\nprint(f'Expected: 500000, Got: {counter}')\n```",
+          "bug": "Race condition — counter += 1 is not atomic. Multiple threads read-modify-write simultaneously.",
+          "answer": {
+            "explanation": "counter += 1 is three operations (read, add, write). Threads interleave, causing lost updates. Use threading.Lock().",
+            "fixed_code": "from threading import Thread, Lock\n\ncounter = 0\nlock = Lock()\n\ndef increment():\n    global counter\n    for _ in range(100000):\n        with lock:\n            counter += 1\n\nthreads = [Thread(target=increment) for _ in range(5)]\nfor t in threads: t.start()\nfor t in threads: t.join()\nprint(f'Expected: 500000, Got: {counter}')  # 500000"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG021",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef merge_dicts(d1, d2):\n    d1.update(d2)\n    return d1\n\noriginal = {'a': 1, 'b': 2}\nother = {'b': 3, 'c': 4}\nmerged = merge_dicts(original, other)\nprint(original)  # Unexpected output!\nprint(merged)\n```",
+          "bug": "d1.update(d2) mutates the original dictionary d1. The caller doesn't expect their dict to be modified.",
+          "answer": {
+            "explanation": "dict.update() modifies in place. The original dict is unexpectedly changed. Return a new merged dict instead.",
+            "fixed_code": "def merge_dicts(d1, d2):\n    return {**d1, **d2}  # Creates a new dict, no mutation\n\noriginal = {'a': 1, 'b': 2}\nother = {'b': 3, 'c': 4}\nmerged = merge_dicts(original, other)\nprint(original)  # {'a': 1, 'b': 2} — unchanged\nprint(merged)    # {'a': 1, 'b': 3, 'c': 4}"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG022",
+          "type": "debugging",
+          "topic": "C++",
+          "question": "Find and fix the bug:\n\n```cpp\n#include <iostream>\n#include <string>\n\nclass Person {\npublic:\n    std::string name;\n    int* age;\n    \n    Person(std::string n, int a) : name(n) {\n        age = new int(a);\n    }\n    \n    ~Person() { delete age; }\n};\n\nint main() {\n    Person p1('Alice', 30);\n    Person p2 = p1;  // Bug!\n    return 0;\n}\n```",
+          "bug": "Shallow copy — compiler-generated copy constructor copies the pointer, so both p1 and p2 point to the same age. Double free on destruction.",
+          "answer": {
+            "explanation": "The default copy constructor does a shallow copy of the pointer. Both objects will try to delete the same memory, causing double-free UB.",
+            "fixed_code": "class Person {\npublic:\n    std::string name;\n    int* age;\n    \n    Person(std::string n, int a) : name(n) {\n        age = new int(a);\n    }\n    \n    // Copy constructor: deep copy\n    Person(const Person& other) : name(other.name) {\n        age = new int(*other.age);\n    }\n    \n    // Copy assignment operator\n    Person& operator=(const Person& other) {\n        if (this != &other) {\n            delete age;\n            name = other.name;\n            age = new int(*other.age);\n        }\n        return *this;\n    }\n    \n    ~Person() { delete age; }\n};\n\n// Better: Use unique_ptr to avoid manual memory management altogether"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG023",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef read_api_key():\n    import os\n    key = os.environ['OPENAI_KEY']\n    return key\n\napi_key = read_api_key()\nprint(f'Using key: {api_key}')\n```",
+          "bug": "Two bugs: (1) os.environ['KEY'] raises KeyError if not set; (2) printing API keys is a security risk.",
+          "answer": {
+            "explanation": "Use os.getenv() for safe access. Never print or log API keys — they are secrets.",
+            "fixed_code": "import os\n\ndef read_api_key():\n    key = os.getenv('OPENAI_KEY')  # Returns None if not set, no exception\n    if not key:\n        raise ValueError('OPENAI_KEY environment variable is not set')\n    return key\n\ntry:\n    api_key = read_api_key()\n    print('API key loaded successfully')  # Never print the actual key!\nexcept ValueError as e:\n    print(f'Configuration error: {e}')"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG024",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nclass Dog:\n    tricks = []  # Bug\n    \n    def __init__(self, name):\n        self.name = name\n    \n    def learn_trick(self, trick):\n        self.tricks.append(trick)\n\ndog1 = Dog('Rex')\ndog2 = Dog('Buddy')\ndog1.learn_trick('sit')\ndog2.learn_trick('roll over')\nprint(dog1.tricks)  # Expected: ['sit']\nprint(dog2.tricks)  # Expected: ['roll over']\n```",
+          "bug": "Mutable class attribute shared between all instances — all dogs share the same tricks list.",
+          "answer": {
+            "explanation": "Class-level mutable attributes are shared across all instances. Each instance needs its own list in __init__.",
+            "fixed_code": "class Dog:\n    def __init__(self, name):\n        self.name = name\n        self.tricks = []  # Instance attribute — each dog gets its own list\n    \n    def learn_trick(self, trick):\n        self.tricks.append(trick)\n\ndog1 = Dog('Rex')\ndog2 = Dog('Buddy')\ndog1.learn_trick('sit')\ndog2.learn_trick('roll over')\nprint(dog1.tricks)  # ['sit']\nprint(dog2.tricks)  # ['roll over']"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG025",
+          "type": "debugging",
+          "topic": "Python/API",
+          "question": "Find and fix the bug:\n\n```python\nimport requests\n\ndef call_llm_api(messages, api_key):\n    response = requests.post(\n        'https://api.openai.com/v1/chat/completions',\n        headers={'Authorization': f'Bearer {api_key}'},\n        json={'model': 'gpt-4', 'messages': messages}\n    )\n    data = response.json()\n    return data['choices'][0]['message']['content']\n\n# Bug: This will fail\nresult = call_llm_api('What is AI?', 'sk-xxx')\nprint(result)\n```",
+          "bug": "Passing a string instead of a list for messages — the API requires messages to be a list of dicts.",
+          "answer": {
+            "explanation": "The OpenAI API requires messages to be a list of dicts with 'role' and 'content'. Passing a bare string causes a 400 error.",
+            "fixed_code": "import requests\n\ndef call_llm_api(user_message, api_key):\n    messages = [{'role': 'user', 'content': user_message}]  # Fixed: wrap in list\n    response = requests.post(\n        'https://api.openai.com/v1/chat/completions',\n        headers={\n            'Authorization': f'Bearer {api_key}',\n            'Content-Type': 'application/json'\n        },\n        json={'model': 'gpt-4', 'messages': messages}\n    )\n    response.raise_for_status()\n    return response.json()['choices'][0]['message']['content']\n\n# result = call_llm_api('What is AI?', 'sk-xxx')"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG026",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nprimes = []\nfor num in range(2, 50):\n    for i in range(2, num):\n        if num % i == 0:\n            primes.append(num)\n            break\n```\n\nThis should collect prime numbers but doesn't work correctly.",
+          "bug": "Logic is inverted — the code appends numbers that ARE divisible (not prime). Should append when no divisor is found.",
+          "answer": {
+            "explanation": "The condition appends numbers when they have a divisor — those are composite, not prime. Use an else clause on the for loop.",
+            "fixed_code": "primes = []\nfor num in range(2, 50):\n    for i in range(2, num):\n        if num % i == 0:\n            break  # Found a divisor — not prime\n    else:\n        primes.append(num)  # For/else: runs if loop completed without break\n\nprint(primes)  # [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG027",
+          "type": "debugging",
+          "topic": "C++",
+          "question": "Find and fix the bug:\n\n```cpp\n#include <iostream>\n#include <vector>\n#include <algorithm>\n\nbool compareByLength(std::string a, std::string b) {\n    return a.length() < b.length();\n}\n\nint main() {\n    std::vector<std::string> words = {\"cat\", \"elephant\", \"dog\", \"ant\"};\n    std::sort(words.begin(), words.end(), compareByLength);\n    for (auto w : words) std::cout << w << ' ';\n    return 0;\n}\n```\n\nThe code works but is inefficient. Identify the performance issue and fix it.",
+          "bug": "Strings passed by value to comparator — unnecessary copies on each comparison. Should use const references.",
+          "answer": {
+            "explanation": "Passing strings by value in comparators creates a copy on every comparison call. Use const std::string& for zero-copy comparison.",
+            "fixed_code": "bool compareByLength(const std::string& a, const std::string& b) {\n    return a.length() < b.length();\n}\n\n// Or use a lambda:\nstd::sort(words.begin(), words.end(),\n    [](const std::string& a, const std::string& b) {\n        return a.length() < b.length();\n    });\n\n// Output: ant cat dog elephant"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG028",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef get_nested_value(d, keys):\n    for key in keys:\n        d = d[key]\n    return d\n\nconfig = {'database': {'host': 'localhost', 'port': 5432}}\nprint(get_nested_value(config, ['database', 'host']))\nprint(get_nested_value(config, ['database', 'password']))  # Bug\n```",
+          "bug": "KeyError when accessing a key that doesn't exist in the nested dictionary.",
+          "answer": {
+            "explanation": "Direct dict access raises KeyError for missing keys. Use .get() with a default and handle missing keys gracefully.",
+            "fixed_code": "def get_nested_value(d, keys, default=None):\n    for key in keys:\n        if not isinstance(d, dict):\n            return default\n        d = d.get(key, default)\n        if d is default:\n            return default\n    return d\n\nconfig = {'database': {'host': 'localhost', 'port': 5432}}\nprint(get_nested_value(config, ['database', 'host']))      # localhost\nprint(get_nested_value(config, ['database', 'password']))  # None\nprint(get_nested_value(config, ['cache', 'host'], 'N/A')) # N/A"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG029",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef fibonacci(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci(n-1, memo) + fibonacci(n-2, memo)\n    return memo[n]\n\n# Works fine, but has a hidden problem\nprint(fibonacci(10))  # 55\nprint(fibonacci(10))  # Also 55 - but what about after clearing?\n```\n\nIdentify the subtle bug and when it would manifest.",
+          "bug": "Mutable default argument memo={} — shared across all calls, even across separate program runs in a REPL. Unexpected state if memo is corrupted or if you want fresh computation.",
+          "answer": {
+            "explanation": "The mutable default memo={} persists between calls. This is usually fine for caching but can cause issues if the cache grows unboundedly or gets corrupted. Best practice: use None default.",
+            "fixed_code": "def fibonacci(n, memo=None):\n    if memo is None:\n        memo = {}  # Fresh dict each top-level call\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fibonacci(n-1, memo) + fibonacci(n-2, memo)\n    return memo[n]\n\n# Or use @functools.lru_cache for automatic memoization:\nfrom functools import lru_cache\n\n@lru_cache(maxsize=None)\ndef fibonacci_cached(n):\n    if n <= 1: return n\n    return fibonacci_cached(n-1) + fibonacci_cached(n-2)"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG030",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nclass APIClient:\n    def __init__(self, base_url, api_key):\n        self.base_url = base_url\n        self.api_key = api_key\n    \n    def get(self, endpoint):\n        import requests\n        url = self.base_url + endpoint\n        return requests.get(url, headers={'Authorization': self.api_key})\n\nclient = APIClient('https://api.example.com', 'mykey123')\nresponse = client.get('/users')\n```",
+          "bug": "Two issues: (1) Authorization header should be 'Bearer mykey123', not bare key. (2) No error handling on the response.",
+          "answer": {
+            "explanation": "API Bearer token format requires 'Bearer ' prefix. Also, always check for errors on HTTP responses.",
+            "fixed_code": "class APIClient:\n    def __init__(self, base_url, api_key):\n        self.base_url = base_url.rstrip('/')\n        self.api_key = api_key\n    \n    def get(self, endpoint):\n        import requests\n        url = self.base_url + '/' + endpoint.lstrip('/')\n        response = requests.get(\n            url,\n            headers={'Authorization': f'Bearer {self.api_key}'}  # Fixed\n        )\n        response.raise_for_status()  # Raise on 4xx/5xx\n        return response.json()"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG031",
+          "type": "debugging",
+          "topic": "C++",
+          "question": "Find and fix the bug:\n\n```cpp\n#include <iostream>\n\nvoid swap(int a, int b) {\n    int temp = a;\n    a = b;\n    b = temp;\n}\n\nint main() {\n    int x = 5, y = 10;\n    swap(x, y);\n    std::cout << x << ' ' << y << std::endl;  // Expected: 10 5\n    return 0;\n}\n```",
+          "bug": "swap() takes parameters by value — it swaps local copies, not the original variables.",
+          "answer": {
+            "explanation": "C++ passes by value by default. The function modifies local copies, not x and y. Use references or std::swap.",
+            "fixed_code": "#include <iostream>\n#include <utility>\n\nvoid swap(int& a, int& b) {  // Pass by reference\n    int temp = a;\n    a = b;\n    b = temp;\n}\n\nint main() {\n    int x = 5, y = 10;\n    swap(x, y);\n    std::cout << x << ' ' << y << std::endl;  // 10 5\n    \n    // Or simply:\n    // std::swap(x, y);\n    return 0;\n}"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG032",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef parse_response(response_text):\n    import json\n    data = json.loads(response_text)\n    return data['result']['value']\n\napi_response = '{\"status\": \"ok\"}'\nvalue = parse_response(api_response)\nprint(value)\n```",
+          "bug": "KeyError — response doesn't have 'result' key. No defensive handling of missing keys.",
+          "answer": {
+            "explanation": "Always use .get() for accessing API response keys and handle unexpected structures gracefully.",
+            "fixed_code": "def parse_response(response_text):\n    import json\n    try:\n        data = json.loads(response_text)\n    except json.JSONDecodeError as e:\n        raise ValueError(f'Invalid JSON response: {e}')\n    \n    result = data.get('result', {})\n    value = result.get('value')  # Returns None if missing\n    \n    if value is None:\n        raise ValueError(f\"Expected 'result.value' in response, got: {data}\")\n    return value\n\ntry:\n    value = parse_response('{\"status\": \"ok\"}')\nexcept ValueError as e:\n    print(f'Parse error: {e}')"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG033",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\ndef load_and_process(filename):\n    f = open(filename, 'r')\n    data = f.read()\n    result = data.upper()  # Simulate processing\n    f.close()\n    return result\n\noutput = load_and_process('test.txt')\n```\n\nWhat happens if an exception occurs during processing?",
+          "bug": "If an exception occurs before f.close(), the file handle is never closed — resource leak.",
+          "answer": {
+            "explanation": "If data.upper() or any other operation throws an exception, f.close() is never reached, leaking the file handle.",
+            "fixed_code": "def load_and_process(filename):\n    with open(filename, 'r') as f:  # Context manager ensures close() even on exception\n        data = f.read()\n    result = data.upper()\n    return result\n\n# The 'with' statement calls f.__exit__() which closes the file,\n# even if an exception occurs inside the block."
+         
+                    }
+       
+                },
+        {
+          "id": "DBG034",
+          "type": "debugging",
+          "topic": "Python",
+          "question": "Find and fix the bug:\n\n```python\nfrom concurrent.futures import ThreadPoolExecutor\n\nresults = []\n\ndef fetch(url):\n    import requests\n    r = requests.get(url)\n    results.append(r.status_code)\n\nurls = ['https://example.com'] * 10\nwith ThreadPoolExecutor(max_workers=5) as executor:\n    executor.map(fetch, urls)\n\nprint(results)\n```",
+          "bug": "Race condition — multiple threads appending to the shared results list simultaneously is not thread-safe.",
+          "answer": {
+            "explanation": "list.append() is thread-safe in CPython due to the GIL, but the pattern of sharing mutable state is risky. Better: collect futures and gather results.",
+            "fixed_code": "from concurrent.futures import ThreadPoolExecutor\nimport requests\n\ndef fetch(url):\n    r = requests.get(url)\n    return r.status_code  # Return value instead of mutating shared state\n\nurls = ['https://example.com'] * 10\nwith ThreadPoolExecutor(max_workers=5) as executor:\n    results = list(executor.map(fetch, urls))  # Collect results safely\n\nprint(results)"
+         
+                    }
+       
+                },
+        {
+          "id": "DBG035",
+          "type": "debugging",
+          "topic": "Python/AI",
+          "question": "Find and fix the bug:\n\n```python\nimport requests\n\ndef generate_with_system_prompt(user_msg, system_msg, api_key):\n    messages = [\n        {'role': 'system', 'content': system_msg},\n        {'role': 'system', 'content': user_msg}  # Bug!\n    ]\n    response = requests.post(\n        'https://api.openai.com/v1/chat/completions',\n        headers={'Authorization': f'Bearer {api_key}'},\n        json={'model': 'gpt-4', 'messages': messages}\n    )\n    return response.json()['choices'][0]['message']['content']\n```",
+          "bug": "The user message has role 'system' instead of 'user'. The API expects alternating user/assistant messages.",
+          "answer": {
+            "explanation": "The second message should have role 'user', not 'system'. Multiple system messages may cause unexpected behavior or API errors.",
+            "fixed_code": "import requests\n\ndef generate_with_system_prompt(user_msg, system_msg, api_key):\n    messages = [\n        {'role': 'system', 'content': system_msg},\n        {'role': 'user', 'content': user_msg}  # Fixed: 'user' role\n    ]\n    response = requests.post(\n        'https://api.openai.com/v1/chat/completions',\n        headers={\n            'Authorization': f'Bearer {api_key}',\n            'Content-Type': 'application/json'\n        },\n        json={'model': 'gpt-4', 'messages': messages}\n    )\n    response.raise_for_status()\n    return response.json()['choices'][0]['message']['content']"
+         
+                    }
+       
+                }
+     
+            ]
+   
+        },
+    "output_finding": {
+      "description": "Find the Output Questions (30 Questions)",
+      "questions": [
+        {
+          "id": "OUT001",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output of the following code?\n\n```python\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)\n```",
+          "answer": "[1, 2, 3, 4]",
+          "explanation": "y = x makes y point to the SAME list object. Modifying y also modifies x because they reference the same memory."
+       
+                },
+        {
+          "id": "OUT002",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nfor i in range(3):\n    pass\nprint(i)\n```",
+          "answer": "2",
+          "explanation": "After the loop, i retains its last value. range(3) goes 0, 1, 2 — so i = 2 after the loop ends."
+       
+                },
+        {
+          "id": "OUT003",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nprint(bool(0), bool(''), bool([]), bool(None), bool('0'))\n```",
+          "answer": "False False False False True",
+          "explanation": "0, empty string, empty list, and None are all falsy. '0' is a non-empty string, so it's truthy."
+       
+                },
+        {
+          "id": "OUT004",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\ndef f(x, y=2):\n    return x ** y\n\nprint(f(3))\nprint(f(3, 3))\nprint(f(y=4, x=2))\n```",
+          "answer": "9\n27\n16",
+          "explanation": "f(3) = 3²=9. f(3,3) = 3³=27. f(y=4, x=2) = 2⁴=16. Keyword args allow out-of-order passing."
+       
+                },
+        {
+          "id": "OUT005",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\na = [1, 2, 3, 4, 5]\nprint(a[1:4])\nprint(a[::-1])\nprint(a[::2])\n```",
+          "answer": "[2, 3, 4]\n[5, 4, 3, 2, 1]\n[1, 3, 5]",
+          "explanation": "a[1:4] = indices 1,2,3 = [2,3,4]. a[::-1] reverses. a[::2] takes every second element starting from 0."
+       
+                },
+        {
+          "id": "OUT006",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nclass A:\n    def __init__(self):\n        print('A init')\n\nclass B(A):\n    def __init__(self):\n        super().__init__()\n        print('B init')\n\nb = B()\n```",
+          "answer": "A init\nB init",
+          "explanation": "B's __init__ calls super().__init__() first (A's __init__), printing 'A init', then continues to print 'B init'."
+       
+                },
+        {
+          "id": "OUT007",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Error')\nfinally:\n    print('Finally')\nprint('Done')\n```",
+          "answer": "Error\nFinally\nDone",
+          "explanation": "ZeroDivisionError is caught, prints 'Error'. finally always runs, prints 'Finally'. Then execution continues, prints 'Done'."
+       
+                },
+        {
+          "id": "OUT008",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nresult = [x for x in range(10) if x % 2 == 0 if x % 3 == 0]\nprint(result)\n```",
+          "answer": "[0, 6]",
+          "explanation": "Multiple if conditions in list comprehension act as AND. Numbers 0-9 divisible by both 2 and 3 are 0 and 6."
+       
+                },
+        {
+          "id": "OUT009",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nd = {}\nfor i in range(5):\n    d[i] = i ** 2\nprint(d)\n```",
+          "answer": "{0: 0, 1: 1, 2: 4, 3: 9, 4: 16}",
+          "explanation": "The loop builds a dict where each key i maps to i squared: 0→0, 1→1, 2→4, 3→9, 4→16."
+       
+                },
+        {
+          "id": "OUT010",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\ndef gen():\n    yield 1\n    yield 2\n    yield 3\n\ng = gen()\nprint(next(g))\nprint(next(g))\nprint(list(g))\n```",
+          "answer": "1\n2\n[3]",
+          "explanation": "next(g) resumes the generator once each time. After consuming 1 and 2, list(g) exhausts the remaining values: [3]."
+       
+                },
+        {
+          "id": "OUT011",
+          "type": "output_finding",
+          "topic": "C++",
+          "question": "What is the output of the following C++ code?\n\n```cpp\n#include <iostream>\nint main() {\n    int x = 5;\n    std::cout << x++ << std::endl;\n    std::cout << ++x << std::endl;\n    std::cout << x-- << std::endl;\n    std::cout << x << std::endl;\n    return 0;\n}\n```",
+          "answer": "5\n7\n7\n6",
+          "explanation": "x++ returns 5 then x=6. ++x increments first to 7 then returns 7. x-- returns 7 then x=6. Final x=6."
+       
+                },
+        {
+          "id": "OUT012",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nprint(type(1/2))\nprint(type(1//2))\nprint(1/2)\nprint(1//2)\n```",
+          "answer": "<class 'float'>\n<class 'int'>\n0.5\n0",
+          "explanation": "/ always returns float in Python 3. // is floor division, always returns int (for int inputs). 1/2=0.5, 1//2=0."
+       
+                },
+        {
+          "id": "OUT013",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nfuncs = []\nfor i in range(3):\n    funcs.append(lambda: i)\n\nfor f in funcs:\n    print(f())\n```",
+          "answer": "2\n2\n2",
+          "explanation": "Lambda captures i by reference (closure), not by value. After the loop, i=2, so all lambdas return 2. Use lambda i=i: i to fix."
+       
+                },
+        {
+          "id": "OUT014",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\na = (1, 2, 3)\nb = (4, 5, 6)\nprint(a + b)\nprint(a * 2)\n```",
+          "answer": "(1, 2, 3, 4, 5, 6)\n(1, 2, 3, 1, 2, 3)",
+          "explanation": "Tuple + concatenates tuples into a new tuple. Tuple * n repeats the tuple n times."
+       
+                },
+        {
+          "id": "OUT015",
+          "type": "output_finding",
+          "topic": "C++",
+          "question": "What is the output?\n\n```cpp\n#include <iostream>\n#include <vector>\nint main() {\n    std::vector<int> v = {1, 2, 3, 4, 5};\n    auto it = v.begin() + 2;\n    v.insert(it, 10);\n    for (auto x : v) std::cout << x << ' ';\n    return 0;\n}\n```",
+          "answer": "1 2 10 3 4 5",
+          "explanation": "v.begin()+2 points to element at index 2 (value 3). Inserting 10 there shifts 3,4,5 to the right."
+       
+                },
+        {
+          "id": "OUT016",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nprint('Hello'[1:4])\nprint('Hello'[-1])\nprint('Hello'[::-1])\n```",
+          "answer": "ell\no\nolleH",
+          "explanation": "'Hello'[1:4] = characters at indices 1,2,3 = 'ell'. [-1] = last character = 'o'. [::-1] reverses = 'olleH'."
+       
+                },
+        {
+          "id": "OUT017",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\ndef outer():\n    x = 10\n    def inner():\n        nonlocal x\n        x += 5\n        return x\n    return inner\n\nf = outer()\nprint(f())\nprint(f())\n```",
+          "answer": "15\n20",
+          "explanation": "nonlocal allows inner() to modify outer's x. The closure persists x between calls. First call: 10+5=15. Second: 15+5=20."
+       
+                },
+        {
+          "id": "OUT018",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nprint(sorted([3,1,4,1,5,9,2,6], reverse=True))\nprint(sorted(['banana', 'apple', 'cherry'], key=len))\n```",
+          "answer": "[9, 6, 5, 4, 3, 2, 1, 1]\n['apple', 'banana', 'cherry']",
+          "explanation": "First: sorted in descending order. Second: sorted by string length (apple=5, banana=6, cherry=6) — tie-breaking preserves original order."
+       
+                },
+        {
+          "id": "OUT019",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nfrom functools import reduce\n\nresult = reduce(lambda acc, x: acc + x, [1, 2, 3, 4, 5])\nprint(result)\n\nresult2 = reduce(lambda acc, x: acc * x, [1, 2, 3, 4, 5])\nprint(result2)\n```",
+          "answer": "15\n120",
+          "explanation": "reduce applies function cumulatively. Sum: ((((1+2)+3)+4)+5)=15. Product: ((((1*2)*3)*4)*5)=120."
+       
+                },
+        {
+          "id": "OUT020",
+          "type": "output_finding",
+          "topic": "C++",
+          "question": "What is the output?\n\n```cpp\n#include <iostream>\nclass Base {\npublic:\n    virtual void print() { std::cout << 'Base' << std::endl; }\n};\nclass Derived : public Base {\npublic:\n    void print() override { std::cout << 'Derived' << std::endl; }\n};\nint main() {\n    Base* b = new Derived();\n    b->print();\n    delete b;\n    return 0;\n}\n```",
+          "answer": "Derived",
+          "explanation": "Virtual function enables runtime polymorphism. b points to a Derived object, so Derived::print() is called via the vtable."
+       
+                },
+        {
+          "id": "OUT021",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nclass MyClass:\n    def __str__(self):\n        return 'MyClass str'\n    def __repr__(self):\n        return 'MyClass repr'\n\nobj = MyClass()\nprint(obj)\nprint(repr(obj))\nprint(f'{obj}')\nprint(f'{obj!r}')\n```",
+          "answer": "MyClass str\nMyClass repr\nMyClass str\nMyClass repr",
+          "explanation": "print() and f-strings call __str__. repr() and f'{obj!r}' call __repr__. The !r flag forces repr in f-strings."
+       
+                },
+        {
+          "id": "OUT022",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nimport json\ndata = {'name': 'Alice', 'scores': [95, 87, 92], 'active': True}\njson_str = json.dumps(data)\nparsed = json.loads(json_str)\nprint(type(parsed['active']))\nprint(type(parsed['scores']))\n```",
+          "answer": "<class 'bool'>\n<class 'list'>",
+          "explanation": "JSON booleans map to Python bool, JSON arrays map to Python list, JSON objects to dict. Types are preserved through serialization."
+       
+                },
+        {
+          "id": "OUT023",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\na = set([1, 2, 3, 4])\nb = set([3, 4, 5, 6])\nprint(a & b)\nprint(a | b)\nprint(a - b)\nprint(a ^ b)\n```",
+          "answer": "{3, 4}\n{1, 2, 3, 4, 5, 6}\n{1, 2}\n{1, 2, 5, 6}",
+          "explanation": "& = intersection, | = union, - = difference (in a but not b), ^ = symmetric difference (in one but not both)."
+       
+                },
+        {
+          "id": "OUT024",
+          "type": "output_finding",
+          "topic": "C++",
+          "question": "What is the output?\n\n```cpp\n#include <iostream>\n#include <string>\nint main() {\n    std::string s = \"Hello World\";\n    std::cout << s.substr(6) << std::endl;\n    std::cout << s.find('o') << std::endl;\n    std::cout << s.length() << std::endl;\n    return 0;\n}\n```",
+          "answer": "World\n4\n11",
+          "explanation": "substr(6) = from index 6 to end = 'World'. find('o') = first 'o' is at index 4. length() = 11 characters."
+       
+                },
+        {
+          "id": "OUT025",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nfrom collections import Counter\n\ntext = 'mississippi'\nc = Counter(text)\nprint(c.most_common(3))\n```",
+          "answer": "[('s', 4), ('i', 4), ('p', 2)]",
+          "explanation": "Counter counts occurrences. 's' appears 4x, 'i' appears 4x, 'p' appears 2x. most_common(3) returns top 3."
+       
+                },
+        {
+          "id": "OUT026",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nprint(all([True, True, True]))\nprint(all([True, False, True]))\nprint(any([False, False, False]))\nprint(any([False, True, False]))\n```",
+          "answer": "True\nFalse\nFalse\nTrue",
+          "explanation": "all() returns True only if ALL elements are truthy. any() returns True if AT LEAST ONE element is truthy."
+       
+                },
+        {
+          "id": "OUT027",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\ndef decorator(func):\n    def wrapper(*args, **kwargs):\n        print('Before')\n        result = func(*args, **kwargs)\n        print('After')\n        return result\n    return wrapper\n\n@decorator\ndef greet(name):\n    print(f'Hello, {name}!')\n    return 'done'\n\nval = greet('Alice')\nprint(val)\n```",
+          "answer": "Before\nHello, Alice!\nAfter\ndone",
+          "explanation": "The decorator wraps greet: prints 'Before', calls greet (prints 'Hello, Alice!'), prints 'After', returns 'done' which is printed."
+       
+                },
+        {
+          "id": "OUT028",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\na = [1, 2, 3]\nb = a.copy()\nb.append(4)\nprint(a)\nprint(b)\n```",
+          "answer": "[1, 2, 3]\n[1, 2, 3, 4]",
+          "explanation": "a.copy() creates a shallow copy — a new list object. Appending to b doesn't affect a."
+       
+                },
+        {
+          "id": "OUT029",
+          "type": "output_finding",
+          "topic": "C++",
+          "question": "What is the output?\n\n```cpp\n#include <iostream>\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int* p = arr;\n    p += 2;\n    std::cout << *p << std::endl;\n    std::cout << *(p + 1) << std::endl;\n    std::cout << p[-1] << std::endl;\n    return 0;\n}\n```",
+          "answer": "30\n40\n20",
+          "explanation": "p starts at arr[0]. p+=2 moves to arr[2]=30. *(p+1)=arr[3]=40. p[-1]=arr[1]=20 (pointer arithmetic)."
+       
+                },
+        {
+          "id": "OUT030",
+          "type": "output_finding",
+          "topic": "Python",
+          "question": "What is the output?\n\n```python\nimport re\n\ntext = 'The price is $29.99 and $15.50'\nprices = re.findall(r'\\$([0-9]+\\.[0-9]+)', text)\nprint(prices)\ntotal = sum(float(p) for p in prices)\nprint(f'Total: ${total:.2f}')\n```",
+          "answer": "['29.99', '15.50']\nTotal: $45.49",
+          "explanation": "re.findall with capture group extracts just the number portion after $. Converting to float and summing: 29.99+15.50=45.49."
+       
+                }
+     
+            ]
+   
+        }
+ 
+    },
+  "metadata": {
+    "total_questions": 200,
+    "mcq_count": 70,
+    "code_writing_count": 65,
+    "debugging_count": 35,
+    "output_finding_count": 30,
+    "topics_covered": [
+            "Python",
+            "C++",
+            "API Integration",
+            "AI/ML Concepts",
+            "Generative AI",
+            "LLMs",
+            "Coding Practices"
+        ],
+    "difficulty_range": "Beginner to Intermediate",
+    "context": "Alpinist Studios AI Intern Written Test"
+ 
+    }
+}
